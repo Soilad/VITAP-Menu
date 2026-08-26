@@ -9,6 +9,10 @@ body {
 	background-color: #1f1f23;
 }
 
+.Header {
+	display: block ruby;
+}
+
 .TimeEntry {
 	background-color: #00000061;
 	border-radius: 35px;
@@ -37,4 +41,13 @@ body {
 
 .NonVeg {
 	background-color: #990B0B;
+}
+
+.SpecialVeg {
+	background-color: #BFE28B;
+	color: #2d1c3f;
+}
+
+.SpecialNonVeg {
+	background-color: #D18F8F;
 }

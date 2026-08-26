@@ -1,31 +1,55 @@
-// https://www.xjavascript.com/blog/how-to-get-json-from-url-in-javascript/
-function fetchJsonWithXhr(url) {
-  // Step 1: Create XHR object
-  const xhr = new XMLHttpRequest();
- 
-  // Step 2: Configure request (GET, URL, async)
-  xhr.open("GET", url, true);
- 
-  // Step 3: Handle response
-  xhr.onload = function () {
-    if (xhr.status >= 200 && xhr.status < 300) {
-      // Success: Parse JSON into an object
-      const jsonData = JSON.parse(xhr.responseText);
-      console.log("XHR fetched data:", jsonData);
-    } else {
-      // HTTP error
-      console.error("XHR Error:", xhr.statusText);
-    }
-  };
- 
-  // Handle network errors
-  xhr.onerror = function () {
-    console.error("Network error occurred");
-  };
+async function loadJSON(url) {
+	try {
+		const response = await fetch(url);
+		if (!response.ok) throw new Error('Network response was not ok');
+		const data = await response.json();
+		return data;  // Your parsed JSON object
+		// Do something with the data...
+	} catch (error) {
+		console.error('Error loading JSON:', error);
+	}
 }
 
-function getMenu(weekDay) {
+function getMenu() {
 	var date = new Date()
+	const indexToName = [
+		"Breakfast",
+		"Lunch",
+		"Snacks",
+		"Dinner",
+	]
+
+	const typeToEmoji = [
+		"🥦",
+		"🍗",
+		"✨🥦",
+		"✨🍗"
+	]
 	console.log(date.getDate())
-	fetchJsonWithXhr("./data.json")
+	loadJSON("./menu.json").then(
+		(menuJSON) => {
+			console.log(menuJSON)
+			const currentMenu = menuJSON[(date.getDate() - 1) % 14]
+			console.log(currentMenu)
+
+			for (let index = 0; index < 4; index++) {
+				const timeEntry = document.createElement("div")
+				const timeEntryHeading = document.createElement("h3")
+				timeEntryHeading.innerText = indexToName[index]
+				timeEntry.appendChild(timeEntryHeading)
+				timeEntry.setAttribute("id", indexToName[index])
+				timeEntry.setAttribute("class", "TimeEntry")
+				currentMenu[index].forEach(
+					foodItem => {
+						const foodEntry = document.createElement("span");
+						foodEntry.setAttribute("class", foodItem.type)
+						foodEntry.setAttribute("class", "FoodEntry")
+						foodEntry.innerText = typeToEmoji[foodItem.type] + foodItem.name;
+						timeEntry.appendChild(foodEntry);
+					}
+				);
+				document.getElementById("entries").appendChild(timeEntry)
+			}
+		}
+	)
 }

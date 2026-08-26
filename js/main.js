@@ -25,6 +25,12 @@ function getMenu() {
 		"✨🥦",
 		"✨🍗"
 	]
+	const typeToClass = [
+		"Veg",
+		"NonVeg",
+		"SpecialVeg",
+		"SpecialNonVeg"
+	]
 	console.log(date.getDate())
 	loadJSON("./menu.json").then(
 		(menuJSON) => {
@@ -34,18 +40,21 @@ function getMenu() {
 
 			for (let index = 0; index < 4; index++) {
 				const timeEntry = document.createElement("div")
-				const timeEntryHeading = document.createElement("h3")
+				const timeEntryHeading = document.createElement("h2")
 				timeEntryHeading.innerText = indexToName[index]
 				timeEntry.appendChild(timeEntryHeading)
 				timeEntry.setAttribute("id", indexToName[index])
 				timeEntry.setAttribute("class", "TimeEntry")
+
+				const foodEntries = document.createElement("div")
+				foodEntries.setAttribute("class", "FoodEntries")
+				timeEntry.appendChild(foodEntries)
 				currentMenu[index].forEach(
 					foodItem => {
-						const foodEntry = document.createElement("span");
-						foodEntry.setAttribute("class", foodItem.type)
-						foodEntry.setAttribute("class", "FoodEntry")
+						const foodEntry = document.createElement("p");
+						foodEntry.setAttribute("class", "FoodEntry " + typeToClass[foodItem.type])
 						foodEntry.innerText = typeToEmoji[foodItem.type] + foodItem.name;
-						timeEntry.appendChild(foodEntry);
+						foodEntries.appendChild(foodEntry);
 					}
 				);
 				document.getElementById("entries").appendChild(timeEntry)

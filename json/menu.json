@@ -1,0 +1,665 @@
+{
+	0: {
+		"breakfast": {
+			"default": [
+				"Shavige Bath",
+				"Coconut Chutney",
+				"Thick Curd",
+				"Mango Pickle",
+				"Brown Bread",
+				"Peanut Butter",
+				"Jam",
+				"Tea",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Raagi Malt",
+			],
+			"veg": [
+				"Paneer Paratha"
+			]
+			"nonVeg": [
+				"Egg Bhurji"
+			]
+			"special": [
+				"Sprouts",
+				"Fresh Carrot Juice",
+				"Cornflakes",
+				"Apple",
+				"Beetroot",
+				"Beetroot",
+			]
+		},
+		"lunch": {
+			"default": [
+				"Beetroot & Cucumber Salad",
+				"Chapathi",
+				"White Rice",
+				"Dal",
+				"Sambar",
+				"Hyderabadi Mirchi Ka Salan",
+				"Onion Raitha",
+				"Fryums",
+				"Nannari Sharbath",
+				"Fresh Gongura Chutney",
+				"Vanilla Ice Cream",
+				"Gulab Jamun",
+			],
+			"veg": [
+				"Paneer Dum Biryani"
+			]
+			"nonVeg": [
+				"Chicken Dum Biryani",
+				"Chicken Thick Gravy"
+			]
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Pani Puri",
+				"Onions",
+				"Ginger Tea",
+				"Coffee",
+				"Milk",
+			]
+		},
+		"dinner": {
+			"default": [
+				"Beetroot & Carrot Salad",
+				"Pulka",
+				"White Rice",
+				"Red Lentil Dal",
+				"Rasam",
+				"Ragi Idly",
+				"Groundnut Chutney",
+				"Dondakaya Fry",
+				"Vegetable Kurma Gravy",
+				"Thick Curd",
+				"Papaya Cut Fruit",
+				"Tomato Pickle",
+				"Milk",
+				"Coffee Powder",
+			],
+			"veg": []
+			"nonVeg": []
+			"special": [
+				"Lemon Coriander Soup"
+			]
+		},
+	},
+	1: {
+		"breakfast": {
+			"default": [
+				"Vegetable Rava Idly",
+				"Poori",
+				"Groundnut Chutney",
+				"Chole Curry",
+				"White Bread",
+				"Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Cold Badam Milk"
+			],
+			"veg": ["Paneer Bhurji"],
+			"nonVeg": ["Scrambled Egg"],
+			"special": ["Sprouts", "Museli"]
+		},
+		"lunch": {
+			"default": [
+				"Beetroot & Cucumber Salad",
+				"Chapathi",
+				"White Rice",
+				"Palak Dal",
+				"Sambar",
+				"Tomato Rice",
+				"Potato Fry",
+				"Drumstick Tomato Masala",
+				"Rava Vadiyalu",
+				"Butter Milk",
+				"Sorakaya Perugu Chutney",
+				"Ghee",
+				"Podi",
+				"Sweet Boondi"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Sweet Corn Masala",
+				"Tomato",
+				"Mint Sauce",
+				"Ginger Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Onions & Lemon Salad",
+				"Methi Roti",
+				"White Rice",
+				"Pesara Pappu",
+				"Tomato Rasam",
+				"Bhagara Rice",
+				"Bhindi Masala",
+				"Thick Curd",
+				"Gongura Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": ["Paneer Pepper Fry"],
+			"nonVeg": ["Chettinad Chicken Curry"],
+			"special": ["Mixed Fruit Salad", "Sweet Corn Soup"]
+		}
+	},
+	2: {
+		"breakfast": {
+			"default": [
+				"Onion Dosa",
+				"Pav Bhaji",
+				"Coconut Chutney",
+				"Mint Chutney",
+				"Brown Bread",
+				"Peanut Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Boiled Soya Chunk Salad"
+			],
+			"veg": [],
+			"nonVeg": ["Boiled Egg"],
+			"special": ["Sprouts", "Pomegranate Fresh Juice", "Chocos"]
+		},
+		"lunch": {
+			"default": [
+				"Carrot & Cucumber Salad",
+				"Roti",
+				"White Rice",
+				"Amaranthus Dal",
+				"Beetroot Tomato Rasam",
+				"Bisbele Bath",
+				"Kakarakaya Fry",
+				"Rajma Masala",
+				"Potato Chips",
+				"Dahi Vada",
+				"Dosakaya Tomato Chutney",
+				"Puran Poli"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Kachori",
+				"Tomato Sauce",
+				"Masala Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Beetroot & Carrot Salad",
+				"Pulka",
+				"White Rice",
+				"Dal Makhani",
+				"Sambar",
+				"Mushroom Biryani",
+				"Snake Gourd Poriyal",
+				"Aloo Mutter Curry",
+				"Thick Curd",
+				"Guava Fruit",
+				"Tomato Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Brocolli Soup"]
+		}
+	},
+	3: {
+		"breakfast": {
+			"default": [
+				"Onion Rava Bonda",
+				"Vegetable Moon Dal Kitchidi",
+				"Groundnut Chutney",
+				"Sambar",
+				"Mango Pickle",
+				"White Bread",
+				"Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Greek Yogurt Salad",
+				"Masala Onion Omlet"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Sprouts", "Papaya Fresh Juice", "Cornflakes"]
+		},
+		"lunch": {
+			"default": [
+				"Onions & Lemon Salad",
+				"Palak Roti",
+				"White Rice",
+				"Gongura Dal",
+				"Pachi Pulusu",
+				"Special Rice",
+				"Vegetable Jalfrezi",
+				"Chips",
+				"Fryums",
+				"Papad",
+				"Butter Milk",
+				"Lassi",
+				"Lemon Water",
+				"Fresh Vegetable Chutney",
+				"Badusha"
+			],
+			"veg": ["Boiled Stir Fry Paneer Masala"],
+			"nonVeg": ["Boiled Stir Fry Chicken Masala"],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Vada Pav",
+				"Mint Sauce",
+				"Ginger Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Beetroot & Carrot Salad",
+				"Chapathi",
+				"White Rice",
+				"Tomato Dal",
+				"Rasam",
+				"Broken Wheat Rava Upma",
+				"Coconut Chutney",
+				"Carrot Beans Poriyal",
+				"Arbi Ka Gravy",
+				"Thick Curd",
+				"Pineapple Cut Fruit",
+				"Lemon Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Tomato Soup with Roasted Bread"]
+		}
+	},
+	4: {
+		"breakfast": {
+			"default": [
+				"Mix Veg Uttappam",
+				"Poha",
+				"Sambar",
+				"Coconut Chutney",
+				"Brown Bread",
+				"Peanut Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": ["Boiled Paneer Salad"],
+			"nonVeg": ["Egg Poach"],
+			"special": ["Sprouts", "Grapes Fresh Juice", "Museli"]
+		},
+		"lunch": {
+			"default": [
+				"Carrot & Cucumber Salad",
+				"Pulka",
+				"White Rice",
+				"Ridge Gourd Dal",
+				"Sambar",
+				"Pudina Rice",
+				"Guthi Vankaya Curry",
+				"Kala Chana Masala",
+				"Finger Fryums",
+				"Lemon Water",
+				"Potlakaya Perugu Chutney",
+				"Mothichoor Laddu"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Sambar Vada",
+				"Masala Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Beetroot & Carrot Salad",
+				"Roti",
+				"White Rice",
+				"Dal Fry",
+				"Beetroot Tomato Rasam",
+				"Gobhi Manchuria",
+				"Rajma Masala",
+				"Thick Curd",
+				"Banana",
+				"Ginger Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Creamy Mushroom Soup"]
+		}
+	},
+	5: {
+		"breakfast": {
+			"default": [
+				"Uggani",
+				"Mirchi Bajji",
+				"Basin Chilla",
+				"Coconut Chutney",
+				"Tomato Chutney",
+				"White Bread",
+				"Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Sprouts"]
+		},
+		"lunch": {
+			"default": [
+				"Beetroot & Cucumber Salad",
+				"Chapathi",
+				"White Rice",
+				"Dal Tadka",
+				"Rasam",
+				"Jeera Rice",
+				"Raw Banana Fry",
+				"Lobia Masala",
+				"Papad",
+				"Lassi",
+				"Beerakaya Chutney",
+				"Poornalu"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Onion Soft Pakoda",
+				"Tomato Chutney",
+				"Ginger Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Onions & Lemon Salad",
+				"Butter Naan",
+				"White Rice",
+				"Dal",
+				"Sambar",
+				"Masala Fish Curry",
+				"Vegetable Kolhapuri",
+				"Thick Curd",
+				"Fresh Vegetable Chutney",
+				"Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": ["Paneer Tikka"],
+			"nonVeg": [],
+			"special": ["Grapes", "Mix Veg Raagi Soup"]
+		}
+	},
+	6: {
+		"breakfast": {
+			"default": [
+				"Masala Ghee Roast Dosa",
+				"Vada Pav",
+				"Groundnut Chutney",
+				"Mint Chutney",
+				"White Bread",
+				"Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Sweet Potato Salad"
+			],
+			"veg": [],
+			"nonVeg": ["Scrambled Egg"],
+			"special": ["Sprouts", "Guava Fresh Juice", "Chocos"]
+		},
+		"lunch": {
+			"default": [
+				"Carrot & Cucumber Salad",
+				"Pulka",
+				"White Rice",
+				"Mudda Pappu",
+				"Beetroot Tomato Rasam",
+				"Pulihora",
+				"Majiga Pulusu",
+				"Chole Soya Chunks Curry",
+				"Papad",
+				"Lemon Water",
+				"Avakaya",
+				"Carrot Halwa"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Punugulu",
+				"Groundnut",
+				"Coconut Chutney",
+				"Ginger Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Beetroot & Carrot Salad",
+				"Roti",
+				"White Rice",
+				"Mango Dal",
+				"Bachali Kura Pulusu",
+				"Adai Dosa",
+				"Tomato Onion Chutney",
+				"Cabbage Beans Poriyal",
+				"Tomato Baingan Masala",
+				"Thick Curd",
+				"Muskmelon Cut Fruit",
+				"Red Chilli Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Red Lentil Soup"]
+		}
+	},
+	7: {
+		"breakfast": {
+			"default": [
+				"Shavige Bath",
+				"Coconut Chutney",
+				"Thick Curd",
+				"Mango Pickle",
+				"Brown Bread",
+				"Peanut Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Raagi Malt"
+			],
+			"veg": ["Paneer Paratha"],
+			"nonVeg": ["Egg Bhurji"],
+			"special": ["Sprouts", "Apple Fresh Juice", "Cornflakes"]
+		},
+		"lunch": {
+			"default": [
+				"Beetroot & Cucumber Salad",
+				"Chapathi",
+				"White Rice",
+				"Dal",
+				"Sambar",
+				"Hyderabadi Mirchi Ka Salan",
+				"Onion Raitha",
+				"Fryums",
+				"Nannari Sharbath",
+				"Fresh Gongura Chutney",
+				"Vanilla Ice Cream",
+				"Gulab Jamun"
+			],
+			"veg": ["Paneer Dum Biryani"],
+			"nonVeg": ["Chicken Dum Biryani", "Chicken Thick Gravy"],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Dahi Puri",
+				"Onions",
+				"Masala Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Beetroot & Carrot Salad",
+				"Pulka",
+				"White Rice",
+				"Red Lentil Dal",
+				"Rasam",
+				"Ragi Idly",
+				"Groundnut Chutney",
+				"Dondakaya Fry",
+				"Vegetable Kurma Gravy",
+				"Thick Curd",
+				"Papaya Cut Fruit",
+				"Tomato Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": ["Lemon Coriander Soup"]
+		}
+	},
+	8: {
+		"breakfast": {
+			"default": [
+				"Carrot Idly",
+				"Bhature",
+				"Groundnut Chutney",
+				"Chole Curry",
+				"Brown Bread",
+				"Peanut Butter",
+				"Jam",
+				"Tea",
+				"Coffee",
+				"Milk",
+				"Banana Milk Shake"
+			],
+			"veg": ["Paneer Bhurji"],
+			"nonVeg": ["Egg Bhurji"],
+			"special": ["Sprouts", "Cornflakes"]
+		},
+		"lunch": {
+			"default": [
+				"Beetroot & Cucumber Salad",
+				"Chapathi",
+				"White Rice",
+				"Palak Dal",
+				"Sambar",
+				"Tomato Rice",
+				"Pesara Punugulu Curry",
+				"Drumstick Tomato Masala",
+				"Rava Vadiyalu",
+				"Butter Milk",
+				"Sorakaya Perugu Chutney",
+				"Ghee",
+				"Podi",
+				"Jilebi"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"snacks": {
+			"default": [
+				"Dry Maggi",
+				"Tomato Sauce",
+				"Masala Tea",
+				"Coffee",
+				"Milk"
+			],
+			"veg": [],
+			"nonVeg": [],
+			"special": []
+		},
+		"dinner": {
+			"default": [
+				"Onions & Lemon Salad",
+				"Methi Butter Roti",
+				"White Rice",
+				"Pesara Pappu",
+				"Tomato Rasam",
+				"Bhagara Rice",
+				"Ladies Finger Boiled Fry",
+				"Thick Curd",
+				"Gongura Pickle",
+				"Milk",
+				"Cofee Powder"
+			],
+			"veg": ["Achari Paneer"],
+			"nonVeg": ["Telangana Chicken Curry"],
+			"special": ["Mixed Fruit Salad", "Sweet Corn Soup"]
+		}
+	},
+	9: 
+}

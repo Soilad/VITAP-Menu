@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 * {
 	font-family: "Google Sans", sans-serif;
 	color: #fff;
 }
+
 body {
 	background-color: #1f1f23;
 }
@@ -30,8 +32,9 @@ body {
 
 .Veg {
 	background-color: #52C852;
-
+	color: #2d1c3f;
 }
+
 .NonVeg {
 	background-color: #990B0B;
 }

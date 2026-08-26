@@ -13,10 +13,10 @@ async function loadJSON(url) {
 function getMenu() {
 	var date = new Date()
 	const indexToName = [
-		"Breakfast",
-		"Lunch",
-		"Snacks",
-		"Dinner",
+		"Breakfast (7:15 AM - 9:00 AM)",
+		"Lunch (12:15 AM - 2:00 PM)",
+		"Snacks (4:15 PM - 6:15 PM)",
+		"Dinner (7:15 PM - 9:00 PM)",
 	]
 
 	const typeToEmoji = [

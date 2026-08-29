@@ -10,32 +10,43 @@ async function loadJSON(url) {
 	}
 }
 
-function getMenu() {
-	var date = new Date()
+function update(date, offset) {
+	date.setDate(date.getDate() + offset);
+	if (new Date().getMonth() === date.getMonth()) {
+		init(date)
+	}
+}
+
+function init(date = new Date()) {
+	document.getElementById("monthDay").value = date.getDate();
+	getMenu(document.getElementById("monthDay").value);
+}
+
+function getMenu(nonthDay) {
+	document.getElementById("entries").innerHTML = '';
 	const indexToName = [
 		"Breakfast (7:15 AM - 9:00 AM)",
 		"Lunch (12:15 AM - 2:00 PM)",
 		"Snacks (4:15 PM - 6:15 PM)",
 		"Dinner (7:15 PM - 9:00 PM)",
-	]
+	];
 
 	const typeToEmoji = [
 		"🥦",
 		"🍗",
 		"✨🥦",
 		"✨🍗"
-	]
+	];
 	const typeToClass = [
 		"Veg",
 		"NonVeg",
 		"SpecialVeg",
 		"SpecialNonVeg"
 	]
-	console.log(date.getDate())
 	loadJSON("./menu.json").then(
 		(menuJSON) => {
 			console.log(menuJSON)
-			const currentMenu = menuJSON[(date.getDate() - 1) % 14]
+			const currentMenu = menuJSON[(nonthDay - 1) % 14]
 			console.log(currentMenu)
 
 			for (let index = 0; index < 4; index++) {

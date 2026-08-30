@@ -14,30 +14,32 @@ function update(date, offset) {
 	date.setDate(date.getDate() + offset);
 	if (new Date().getMonth() === date.getMonth()) {
 		init(date)
+	} else {
+		date.setDate(date.getDate() - offset);
 	}
 }
 
 function init(date = new Date()) {
 	document.getElementById("monthDay").value = date.getDate();
-	getMenu(document.getElementById("monthDay").value);
+	getMenu(date.getDate());
 }
 
-function getMenu(nonthDay) {
+function getMenu(monthDay) {
 	document.getElementById("entries").innerHTML = '';
-	const indexToName = [
+	const INDEX_TO_NAME = [
 		"Breakfast (7:15 AM - 9:00 AM)",
 		"Lunch (12:15 AM - 2:00 PM)",
 		"Snacks (4:15 PM - 6:15 PM)",
 		"Dinner (7:15 PM - 9:00 PM)",
 	];
 
-	const typeToEmoji = [
+	const TYPE_TO_EMOJI = [
 		"🥦",
 		"🍗",
 		"✨🥦",
 		"✨🍗"
 	];
-	const typeToClass = [
+	const TYPE_TO_CLASS = [
 		"Veg",
 		"NonVeg",
 		"SpecialVeg",
@@ -46,15 +48,15 @@ function getMenu(nonthDay) {
 	loadJSON("./menu.json").then(
 		(menuJSON) => {
 			console.log(menuJSON)
-			const currentMenu = menuJSON[(nonthDay - 1) % 14]
+			const currentMenu = menuJSON[(monthDay - 1) % 14]
 			console.log(currentMenu)
 
 			for (let index = 0; index < 4; index++) {
 				const timeEntry = document.createElement("div")
 				const timeEntryHeading = document.createElement("h2")
-				timeEntryHeading.innerText = indexToName[index]
+				timeEntryHeading.innerText = INDEX_TO_NAME[index]
 				timeEntry.appendChild(timeEntryHeading)
-				timeEntry.setAttribute("id", indexToName[index])
+				timeEntry.setAttribute("id", INDEX_TO_NAME[index])
 				timeEntry.setAttribute("class", "TimeEntry")
 
 				const foodEntries = document.createElement("div")
@@ -63,8 +65,8 @@ function getMenu(nonthDay) {
 				currentMenu[index].forEach(
 					foodItem => {
 						const foodEntry = document.createElement("p");
-						foodEntry.setAttribute("class", "FoodEntry " + typeToClass[foodItem.type])
-						foodEntry.innerText = typeToEmoji[foodItem.type] + foodItem.name;
+						foodEntry.setAttribute("class", "FoodEntry " + TYPE_TO_CLASS[foodItem.type])
+						foodEntry.innerText = TYPE_TO_EMOJI[foodItem.type] + foodItem.name;
 						foodEntries.appendChild(foodEntry);
 					}
 				);

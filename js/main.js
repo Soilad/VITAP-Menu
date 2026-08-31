@@ -62,6 +62,8 @@ function getMenu(monthDay, currentDate) {
 	loadJSON("./menu.json").then(
 		(menuJSON) => {
 			const currentMenu = menuJSON[(monthDay - 1) % 14];
+			console.log(menuJSON.length);
+			console.log((monthDay - 1) % 13);
 			const mealIndices = [0, 1, 2, 3];
 			mealIndices.sort(
 				(index1, index2) => {
@@ -73,16 +75,16 @@ function getMenu(monthDay, currentDate) {
 
 			mealIndices.forEach(
 				(index) => {
-					const timeEntry = document.createElement("div")
-					const timeEntryHeading = document.createElement("h2")
-					timeEntryHeading.innerText = INDEX_TO_NAME[index]
-					timeEntry.appendChild(timeEntryHeading)
-					timeEntry.setAttribute("id", INDEX_TO_NAME[index])
-					timeEntry.setAttribute("class", "TimeEntry")
+					const timeEntry = document.createElement("div");
+					const timeEntryHeading = document.createElement("h2");
+					timeEntryHeading.innerText = INDEX_TO_NAME[index];
+					timeEntry.appendChild(timeEntryHeading);
+					timeEntry.setAttribute("id", INDEX_TO_NAME[index]);
+					timeEntry.setAttribute("class", "TimeEntry");
 
-					const foodEntries = document.createElement("div")
-					foodEntries.setAttribute("class", "FoodEntries")
-					timeEntry.appendChild(foodEntries)
+					const foodEntries = document.createElement("div");
+					foodEntries.setAttribute("class", "FoodEntries");
+					timeEntry.appendChild(foodEntries);
 					currentMenu[index].forEach(
 						foodItem => {
 							const foodEntry = document.createElement("p");

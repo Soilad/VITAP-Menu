@@ -11,25 +11,26 @@ body {
 
 .Header {
 	display: block ruby;
-	width: fit-content;
 	padding: 1em;
 }
 
 .ChangeDate {
 	background-color: #424249;
 	border: none;
-	padding: 1.7em;
 	border-radius: 2em;
+	width: 20%;
+	height: 10%;
+	font-size: 2.5em;
 }
 
 #monthDay {
-	font-size: 1.3em;
+	font-size: 2.5em;
 	background: transparent;
 	border: solid;
 	text-align: center;
-	padding: .8em 0;
 	border-radius: 3em;
-	width: 65%;
+	width: 60%;
+	height: 10%;
 }
 
 .TimeEntry {
@@ -37,6 +38,7 @@ body {
 	border-radius: 35px;
 	padding: 10px;
 	margin: 10px;
+	box-shadow: 0em 0em 1em black;
 }
 
 .FoodEntries {
@@ -65,6 +67,7 @@ body {
 .SpecialVeg {
 	background-color: #8BCAE2;
 	color: #2d1c3f;
+  box-shadow: 0em 0em 1em #888;
 }
 
 .SpecialNonVeg {

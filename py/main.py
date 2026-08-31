@@ -41,10 +41,10 @@ def menuToJSON(menu, food_type):
     dictJSON  = {}
     start_row = 4
     end_row   = start_row + 1
-    while len(dictJSON) < 13:
-        # if end_row - start_row > 20:
-        #     print(len(dictJSON))
-        #     break
+    while len(dictJSON) < 14:
+        if end_row - start_row > 20:
+            print(len(dictJSON))
+            break
         start_cell = menu[f"A{start_row}"].value
         end_cell   = menu[f"A{end_row}"].value
         if end_cell != None:

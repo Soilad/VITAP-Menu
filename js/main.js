@@ -63,7 +63,7 @@ function getMenu(monthDay, currentDate) {
 		(menuJSON) => {
 			const currentMenu = menuJSON[(monthDay - 1) % 14];
 			console.log(menuJSON.length);
-			console.log((monthDay - 1) % 13);
+			console.log((monthDay - 1) % 14);
 			const mealIndices = [0, 1, 2, 3];
 			mealIndices.sort(
 				(index1, index2) => {

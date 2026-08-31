@@ -813,7 +813,7 @@
             },
             {
                 "name": "Masala Fish Fry",
-                "type": 0
+                "type": 1
             },
             {
                 "name": "Kaju Tomato Paneer Boiled Fry",
@@ -2373,6 +2373,176 @@
             },
             {
                 "name": "Onions & Lemon Salad",
+                "type": 0
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "name": "Uggani + Mirchi Bajji",
+                "type": 0
+            },
+            {
+                "name": "Basin Chilla (2 Pcs thin)",
+                "type": 0
+            },
+            {
+                "name": "Coconut Chutney",
+                "type": 0
+            },
+            {
+                "name": "Tomato Chutney",
+                "type": 0
+            },
+            {
+                "name": "White Bread+Butter+Jam",
+                "type": 0
+            },
+            {
+                "name": "Sprouts (1 small cup)",
+                "type": 0
+            },
+            {
+                "name": "Tea/Coffee/Milk",
+                "type": 0
+            },
+            {
+                "name": "Pineapple Fresh Juice",
+                "type": 2
+            },
+            {
+                "name": "Chocos",
+                "type": 2
+            },
+            {
+                "name": "Boiled Egg (Non-Veg)",
+                "type": 1
+            },
+            {
+                "name": "Boiled Chick Peas Salad (Veg)",
+                "type": 0
+            },
+            {
+                "name": "MESS SERVICE INSTRUCTIONS",
+                "type": 0
+            }
+        ],
+        [
+            {
+                "name": "Beetroot & Cucumber Salad",
+                "type": 0
+            },
+            {
+                "name": "Chapathi",
+                "type": 0
+            },
+            {
+                "name": "White Rice",
+                "type": 0
+            },
+            {
+                "name": "Dal Tadka",
+                "type": 0
+            },
+            {
+                "name": "Rasam",
+                "type": 0
+            },
+            {
+                "name": "Jeera Rice",
+                "type": 0
+            },
+            {
+                "name": "Raw Banana Fry",
+                "type": 0
+            },
+            {
+                "name": "Lobia Masala (Cowpeas in Onion Tomato Gravy)",
+                "type": 0
+            },
+            {
+                "name": "Papad",
+                "type": 0
+            },
+            {
+                "name": "Lassi",
+                "type": 0
+            },
+            {
+                "name": "Beerakaya Chutney",
+                "type": 0
+            },
+            {
+                "name": "Poornalu ",
+                "type": 0
+            }
+        ],
+        [
+            {
+                "name": "Onion Soft Pakoda",
+                "type": 0
+            },
+            {
+                "name": "Tomato Chutney",
+                "type": 0
+            },
+            {
+                "name": "Ginger Tea/Coffee/Milk",
+                "type": 0
+            }
+        ],
+        [
+            {
+                "name": "Onions & Lemon Salad",
+                "type": 0
+            },
+            {
+                "name": "Butter Naan",
+                "type": 2
+            },
+            {
+                "name": "White Rice",
+                "type": 0
+            },
+            {
+                "name": "Dal",
+                "type": 0
+            },
+            {
+                "name": "Sambar",
+                "type": 0
+            },
+            {
+                "name": "Masala Fish Curry",
+                "type": 3
+            },
+            {
+                "name": "Paneer Tikka (Veg)",
+                "type": 2
+            },
+            {
+                "name": "Vegetable Kolhapuri",
+                "type": 0
+            },
+            {
+                "name": "Thick Curd",
+                "type": 0
+            },
+            {
+                "name": "Grapes",
+                "type": 0
+            },
+            {
+                "name": "Fresh Vegetable Chutney/Pickle",
+                "type": 0
+            },
+            {
+                "name": "Milk + Cofee Powder",
+                "type": 0
+            },
+            {
+                "name": "Mix Veg Raagi Soup",
                 "type": 0
             }
         ]

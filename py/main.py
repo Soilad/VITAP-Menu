@@ -9,7 +9,7 @@ class FoodType:
 
 def addEntry(name, food_type) -> dict:
     _food_type = food_type
-    match = re.search("non.veg|egg(?!\\s+less)|chicken|omlet", name, re.IGNORECASE)
+    match = re.search("non.veg|fish|egg(?!\\s+less)|chicken|omlet", name, re.IGNORECASE)
     if match is not None: # that is NOT how you spell omelette
         _food_type |= FoodType.NONVEG
     food_entry = {
@@ -42,14 +42,22 @@ def menuToJSON(menu, food_type):
     start_row = 4
     end_row   = start_row + 1
     while len(dictJSON) < 14:
-        if end_row - start_row > 20:
-            print(len(dictJSON))
-            break
         start_cell = menu[f"A{start_row}"].value
         end_cell   = menu[f"A{end_row}"].value
+        if end_row - start_row > 14:
+            dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row, food_type)
+            # __import__('pprint').pprint(dictJSON)
+            # print(len(dictJSON))
+            # print(f"A{start_row}")
+            # print(f"A{end_row}")
+            # input()
+            break
         if end_cell != None:
             dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row, food_type)
             start_row = end_row
+            # __import__('pprint').pprint(dictJSON)
+            # print(len(dictJSON))
+            # input()
             # break
         end_row += 1
     # __import__('pprint').pprint(dictJSON)
@@ -66,8 +74,8 @@ def main():
     special_dict = menuToJSON(special_menu, FoodType.VEG)
     normal_dict  = menuToJSON(normal_menu,  FoodType.VEG)
 
-    __import__('pprint').pprint(special_dict)
-    __import__('pprint').pprint(normal_dict)
+    # __import__('pprint').pprint(special_dict)
+    # __import__('pprint').pprint(normal_dict)
     print(len(special_dict))
     print(len(normal_dict))
     for day in special_dict:
@@ -75,7 +83,7 @@ def main():
             for special_food_entry, normal_food_entry in zip(special_food_entries, normal_food_entries):
                 if special_food_entry not in normal_food_entries:
                     special_food_entry["type"] |= FoodType.SPECIAL
-    __import__('pprint').pprint(special_dict)
+    # __import__('pprint').pprint(special_dict)
 
     menu_json = list(special_dict.values())
     with open("../menu.json", "w") as f:

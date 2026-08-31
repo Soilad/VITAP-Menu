@@ -19,12 +19,12 @@ function update(date, offset) {
 	}
 }
 
-function init(date = new Date()) {
+function init(currentDate = new Date()) {
 	document.getElementById("monthDay").value = date.getDate();
-	getMenu(date.getDate());
+	getMenu(date.getDate(), currentDate);
 }
 
-function getMenu(monthDay) {
+function getMenu(monthDay, currentDate) {
 	document.getElementById("entries").innerHTML = '';
 	const INDEX_TO_NAME = [
 		"Breakfast (7:15 AM - 9:00 AM)",
@@ -32,7 +32,21 @@ function getMenu(monthDay) {
 		"Snacks (4:15 PM - 6:15 PM)",
 		"Dinner (7:15 PM - 9:00 PM)",
 	];
-
+	const INDEX_TO_DATE = [
+		{
+			start: new Date(new Date(currentDate).setHours(7, 15, 0, 0)),
+			end: new Date(new Date(currentDate).setHours(9, 0, 0, 0)),
+		}, {
+			start: new Date(new Date(currentDate).setHours(12, 15, 0, 0)),
+			end: new Date(new Date(currentDate).setHours(14, 0, 0, 0)),
+		}, {
+			start: new Date(new Date(currentDate).setHours(16, 15, 0, 0)),
+			end: new Date(new Date(currentDate).setHours(18, 15, 0, 0)),
+		}, {
+			start: new Date(new Date(currentDate).setHours(19, 15, 0, 0)),
+			end: new Date(new Date(currentDate).setHours(21, 0, 0, 0)),
+		}
+	];
 	const TYPE_TO_EMOJI = [
 		"🥦",
 		"🍗",
@@ -44,34 +58,42 @@ function getMenu(monthDay) {
 		"NonVeg",
 		"SpecialVeg",
 		"SpecialNonVeg"
-	]
+	];
 	loadJSON("./menu.json").then(
 		(menuJSON) => {
-			console.log(menuJSON)
-			const currentMenu = menuJSON[(monthDay - 1) % 14]
-			console.log(currentMenu)
+			const currentMenu = menuJSON[(monthDay - 1) % 14];
+			const mealIndices = [0, 1, 2, 3];
+			mealIndices.sort(
+				(index1, index2) => {
+					const time1 = INDEX_TO_DATE[index1].start;
+					const time2 = INDEX_TO_DATE[index2].start;
+					return Math.abs(time1.getTime() - currentDate.getTime()) - Math.abs(time2.getTime() - currentDate.getTime());
+				}
+			);
 
-			for (let index = 0; index < 4; index++) {
-				const timeEntry = document.createElement("div")
-				const timeEntryHeading = document.createElement("h2")
-				timeEntryHeading.innerText = INDEX_TO_NAME[index]
-				timeEntry.appendChild(timeEntryHeading)
-				timeEntry.setAttribute("id", INDEX_TO_NAME[index])
-				timeEntry.setAttribute("class", "TimeEntry")
+			mealIndices.forEach(
+				(index) => {
+					const timeEntry = document.createElement("div")
+					const timeEntryHeading = document.createElement("h2")
+					timeEntryHeading.innerText = INDEX_TO_NAME[index]
+					timeEntry.appendChild(timeEntryHeading)
+					timeEntry.setAttribute("id", INDEX_TO_NAME[index])
+					timeEntry.setAttribute("class", "TimeEntry")
 
-				const foodEntries = document.createElement("div")
-				foodEntries.setAttribute("class", "FoodEntries")
-				timeEntry.appendChild(foodEntries)
-				currentMenu[index].forEach(
-					foodItem => {
-						const foodEntry = document.createElement("p");
-						foodEntry.setAttribute("class", "FoodEntry " + TYPE_TO_CLASS[foodItem.type])
-						foodEntry.innerText = TYPE_TO_EMOJI[foodItem.type] + foodItem.name;
-						foodEntries.appendChild(foodEntry);
-					}
-				);
-				document.getElementById("entries").appendChild(timeEntry)
-			}
+					const foodEntries = document.createElement("div")
+					foodEntries.setAttribute("class", "FoodEntries")
+					timeEntry.appendChild(foodEntries)
+					currentMenu[index].forEach(
+						foodItem => {
+							const foodEntry = document.createElement("p");
+							foodEntry.setAttribute("class", "FoodEntry " + TYPE_TO_CLASS[foodItem.type])
+							foodEntry.innerText = TYPE_TO_EMOJI[foodItem.type] + foodItem.name;
+							foodEntries.appendChild(foodEntry);
+						}
+					);
+					document.getElementById("entries").appendChild(timeEntry)
+				}
+			);
 		}
 	)
 }

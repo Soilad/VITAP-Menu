@@ -45,7 +45,7 @@ def menuToJSON(menu, food_type):
         start_cell = menu[f"A{start_row}"].value
         end_cell   = menu[f"A{end_row}"].value
         if end_row - start_row > 14:
-            dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row, food_type)
+            dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row - 1, food_type)
             # __import__('pprint').pprint(dictJSON)
             # print(len(dictJSON))
             # print(f"A{start_row}")
@@ -53,7 +53,7 @@ def menuToJSON(menu, food_type):
             # input()
             break
         if end_cell != None:
-            dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row, food_type)
+            dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row - 1, food_type)
             start_row = end_row
             # __import__('pprint').pprint(dictJSON)
             # print(len(dictJSON))

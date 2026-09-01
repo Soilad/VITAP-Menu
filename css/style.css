@@ -52,6 +52,11 @@ body {
 	box-shadow: 0em 0em 1em black;
 }
 
+.Active {
+	background-color: #0000009c;
+	box-shadow: 0em 0em 1em #b89921 inset;
+}
+
 .FoodEntries {
 	display: flex;
 	flex-wrap: wrap;

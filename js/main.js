@@ -51,19 +51,20 @@ async function init(a_currentDate = new Date(), a_timeEntries, menuJSON) {
 
 	a_timeEntries.forEach(entry => {
 			const timeEntry = document.createElement("div");
-			timeEntry.setAttribute("id", entry.name);
-			timeEntry.setAttribute("class", "TimeEntry");
+			timeEntry.id = entry.name;
+			timeEntry.classList.add("TimeEntry");
 
 			const timeEntryHeading = document.createElement("h2");
 			timeEntryHeading.innerText = getHeading(entry);
 			timeEntry.appendChild(timeEntryHeading);
 
 			const foodEntries = document.createElement("div");
-			foodEntries.setAttribute("class", "FoodEntries");
+			foodEntries.classList.add("FoodEntries");
 			timeEntry.appendChild(foodEntries);
 
 			timeEntries.appendChild(timeEntry);
 	});
+	timeEntries.firstElementChild.classList.add("Active");
 }
 
 function getHeading(a_timeEntry) {
@@ -105,7 +106,6 @@ async function update(a_date, a_timeEntries, a_menuJSON, isButton = false) {
 	
 	a_timeEntries.forEach(
 		(timeEntry) => {
-			const timeEntry = a_timeEntries[index];
 			const entry = document.getElementById(timeEntry.name);
 			// console.log(entry);
 
@@ -113,10 +113,11 @@ async function update(a_date, a_timeEntries, a_menuJSON, isButton = false) {
 			foodEntries.innerHTML = "";
 			// console.log(foodEntries);
 
-			currentMenu[index].forEach(
+			currentMenu[timeEntry.id].forEach(
 				foodObject => {
 					const foodEntry = document.createElement("p");
-					foodEntry.setAttribute("class", "FoodEntry " + TYPES[foodObject.type].class)
+					foodEntry.classList.add("FoodEntry");
+					foodEntry.classList.add(TYPES[foodObject.type].class);
 					foodEntry.innerText = TYPES[foodObject.type].emoji + foodObject.name;
 					foodEntries.appendChild(foodEntry);
 				}

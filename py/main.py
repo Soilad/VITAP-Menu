@@ -66,7 +66,7 @@ def menuToJSON(menu, food_type):
 
 def main():
     menu = openpyxl.load_workbook(
-        filename = "./VIT-AP_Final Mess Menu_August 2026.xlsx"
+        filename = "./VIT-AP_Final Mess Menu_September 2026.xlsx"
     )
     special_menu = menu["Special"]
     normal_menu  = menu["Veg & Non-Veg"]

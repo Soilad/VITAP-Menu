@@ -21,11 +21,43 @@
 		<link href="css/style.css" rel="stylesheet">
 		<script src="js/main.js"></script>
 		<script>
-			date = new Date();
-			init(date)
+			currentDate = new Date();
+			var menuJSON = loadJSON("./menu.json");
+			var timeEntries = [
+				{
+					name: "Breakfast",
+					start: new Date(new Date(currentDate).setHours(7, 15, 0, 0)),
+					end: new Date(new Date(currentDate).setHours(9, 0, 0, 0)),
+				}, {
+					name: "Lunch",
+					start: new Date(new Date(currentDate).setHours(12, 15, 0, 0)),
+					end: new Date(new Date(currentDate).setHours(14, 0, 0, 0)),
+				}, {
+					name: "Snacks",
+					start: new Date(new Date(currentDate).setHours(16, 15, 0, 0)),
+					end: new Date(new Date(currentDate).setHours(18, 15, 0, 0)),
+				}, {
+					name: "Dinner",
+					start: new Date(new Date(currentDate).setHours(19, 15, 0, 0)),
+					end: new Date(new Date(currentDate).setHours(21, 0, 0, 0)),
+				}
+			];
+			timeEntries.sort(
+				(entry1, entry2) => {
+					return (
+						Math.abs(
+							entry1.start.getTime() 
+							- currentDate.getTime()
+						) - Math.abs(
+							entry2.start.getTime() 
+							- currentDate.getTime()
+						)
+					);
+				}
+			)
 		</script>
 	</head>
-	<body onload="init()">
+	<body onload="init(currentDate, timeEntries, menuJSON);update(currentDate, timeEntries, menuJSON);">
 		<div class="Header">
 			<img src="./assets/Yuchiru.png" alt="" width="100">
 			<h1>VIT-AP Mess Menu</h1>
@@ -37,11 +69,11 @@
 			<a href="https://youtu.be/2p07dBnwzck?si=N4qlJoKK4n_H653A">Report To VIT-AP Staff</a>
 		</div>
 		<div class="Header">
-			<button class="ChangeDate" type="" onclick="update(date, -1)">&lt;</button>
-			<input type="text" disabled="disabled" name="" id="monthDay" value="">
-			<button class="ChangeDate" type="" onclick="update(date, 1)">&gt;</button>
+			<button class="ChangeDate" type="" onclick="lockByMonth(currentDate, -1); update(currentDate, timeEntries, menuJSON, true);">&lt;</button>
+			<input type="number" id="monthDay">
+			<button class="ChangeDate" type="" onclick="lockByMonth(currentDate, 1); update(currentDate, timeEntries, menuJSON, true);">&gt;</button>
 		</div>
-		<div id="entries">
+		<div id="timeEntries">
 		</div>
 	</body>
 </html>

@@ -33,6 +33,17 @@ body {
 	height: 10%;
 }
 
+#monthDay::-webkit-outer-spin-button,
+#monthDay::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#monthDay[type=number] {
+  -moz-appearance: textfield;
+}
+
 .TimeEntry {
 	background-color: #00000061;
 	border-radius: 35px;

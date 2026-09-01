@@ -10,92 +10,115 @@ async function loadJSON(url) {
 	}
 }
 
-function update(date, offset) {
+function lockByMonth(date, offset = 0) {
 	date.setDate(date.getDate() + offset);
-	if (new Date().getMonth() === date.getMonth()) {
-		init(date)
-	} else {
+	console.log(new Date());
+	console.log(date);
+	if (!(new Date().getMonth() === date.getMonth())) {
 		date.setDate(date.getDate() - offset);
+		return false;
 	}
+	return true;
 }
 
-function init(currentDate = new Date()) {
-	document.getElementById("monthDay").value = date.getDate();
-	getMenu(date.getDate(), currentDate);
+async function init(a_currentDate = new Date(), a_timeEntries, menuJSON) {
+	const inputMonth = document.getElementById("monthDay");
+	inputMonth.addEventListener(
+		"change",
+		// "input",
+		async (event) => {
+			monthDay = inputMonth.value
+			if (!isNaN(parseInt(monthDay))) {
+				if (lockByMonth(a_currentDate)) {
+					a_currentDate.setDate(parseInt(monthDay));
+					if (a_currentDate.getMonth() !== new Date().getMonth()) {
+						a_currentDate = new Date();
+					}
+				}
+				inputMonth.value = a_currentDate.getDate();
+			}
+			console.log(parseInt(monthDay));
+			console.log(a_currentDate);
+			console.log(
+				await update(a_currentDate, a_timeEntries, menuJSON)
+			);
+			console.log(event);
+		}
+	);
+	inputMonth.value = a_currentDate.getDate();
+
+	const timeEntries = document.getElementById("timeEntries");
+
+	a_timeEntries.forEach(entry => {
+			const timeEntry = document.createElement("div");
+			timeEntry.setAttribute("id", entry.name);
+			timeEntry.setAttribute("class", "TimeEntry");
+
+			const timeEntryHeading = document.createElement("h2");
+			timeEntryHeading.innerText = getHeading(entry);
+			timeEntry.appendChild(timeEntryHeading);
+
+			const foodEntries = document.createElement("div");
+			foodEntries.setAttribute("class", "FoodEntries");
+			timeEntry.appendChild(foodEntries);
+
+			timeEntries.appendChild(timeEntry);
+	});
 }
 
-function getMenu(monthDay, currentDate) {
-	document.getElementById("entries").innerHTML = '';
-	const INDEX_TO_NAME = [
-		"Breakfast (7:15 AM - 9:00 AM)",
-		"Lunch (12:15 AM - 2:00 PM)",
-		"Snacks (4:15 PM - 6:15 PM)",
-		"Dinner (7:15 PM - 9:00 PM)",
-	];
-	const INDEX_TO_DATE = [
+function getHeading(a_timeEntry) {
+	const format = {
+		hour: "2-digit",
+		minute: "2-digit",
+	}
+	return a_timeEntry.name 
+	+ " ("
+	+ a_timeEntry.start.toLocaleTimeString('en', format)
+	+ " - "
+	+ a_timeEntry.end.toLocaleTimeString('en', format)
+	+ ")";
+}
+
+async function update(a_date, a_timeEntries, a_menuJSON, isButton = false) {
+	const TYPES = [
 		{
-			start: new Date(new Date(currentDate).setHours(7, 15, 0, 0)),
-			end: new Date(new Date(currentDate).setHours(9, 0, 0, 0)),
+			emoji: "🥦",
+			class: "Veg",
 		}, {
-			start: new Date(new Date(currentDate).setHours(12, 15, 0, 0)),
-			end: new Date(new Date(currentDate).setHours(14, 0, 0, 0)),
+			emoji: "🍗",
+			class: "NonVeg",
 		}, {
-			start: new Date(new Date(currentDate).setHours(16, 15, 0, 0)),
-			end: new Date(new Date(currentDate).setHours(18, 15, 0, 0)),
+			emoji: "✨🥦",
+			class: "SpecialVeg",
 		}, {
-			start: new Date(new Date(currentDate).setHours(19, 15, 0, 0)),
-			end: new Date(new Date(currentDate).setHours(21, 0, 0, 0)),
+			emoji: "✨🍗",
+			class: "SpecialNonVeg",
 		}
 	];
-	const TYPE_TO_EMOJI = [
-		"🥦",
-		"🍗",
-		"✨🥦",
-		"✨🍗"
-	];
-	const TYPE_TO_CLASS = [
-		"Veg",
-		"NonVeg",
-		"SpecialVeg",
-		"SpecialNonVeg"
-	];
-	loadJSON("./menu.json").then(
-		(menuJSON) => {
-			const currentMenu = menuJSON[(monthDay - 1) % 14];
-			console.log(menuJSON.length);
-			console.log((monthDay - 1) % 14);
-			const mealIndices = [0, 1, 2, 3];
-			mealIndices.sort(
-				(index1, index2) => {
-					const time1 = INDEX_TO_DATE[index1].start;
-					const time2 = INDEX_TO_DATE[index2].start;
-					return Math.abs(time1.getTime() - currentDate.getTime()) - Math.abs(time2.getTime() - currentDate.getTime());
-				}
-			);
+	const inputMonth = document.getElementById("monthDay");
+	inputMonth.value = a_date.getDate();
 
-			mealIndices.forEach(
-				(index) => {
-					const timeEntry = document.createElement("div");
-					const timeEntryHeading = document.createElement("h2");
-					timeEntryHeading.innerText = INDEX_TO_NAME[index];
-					timeEntry.appendChild(timeEntryHeading);
-					timeEntry.setAttribute("id", INDEX_TO_NAME[index]);
-					timeEntry.setAttribute("class", "TimeEntry");
+	menuJSON = await a_menuJSON;
+	const currentMenu = menuJSON[(a_date.getDate() - 1) % 14];
+	// console.log(menuJSON.length);
+	// console.log((a_date.getDate() - 1) % 14);
+	
+	for (let index = 0; index < a_timeEntries.length; index++) {
+		const entryID = a_timeEntries[index];
+		const entry = document.getElementById(entryID.name);
+		// console.log(entry);
 
-					const foodEntries = document.createElement("div");
-					foodEntries.setAttribute("class", "FoodEntries");
-					timeEntry.appendChild(foodEntries);
-					currentMenu[index].forEach(
-						foodItem => {
-							const foodEntry = document.createElement("p");
-							foodEntry.setAttribute("class", "FoodEntry " + TYPE_TO_CLASS[foodItem.type])
-							foodEntry.innerText = TYPE_TO_EMOJI[foodItem.type] + foodItem.name;
-							foodEntries.appendChild(foodEntry);
-						}
-					);
-					document.getElementById("entries").appendChild(timeEntry)
-				}
-			);
-		}
-	)
+		const foodEntries = entry.lastElementChild;
+		foodEntries.innerHTML = "";
+		// console.log(foodEntries);
+
+		currentMenu[index].forEach(
+			foodObject => {
+				const foodEntry = document.createElement("p");
+				foodEntry.setAttribute("class", "FoodEntry " + TYPES[foodObject.type].class)
+				foodEntry.innerText = TYPES[foodObject.type].emoji + foodObject.name;
+				foodEntries.appendChild(foodEntry);
+			}
+		);
+	}
 }

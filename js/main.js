@@ -103,22 +103,24 @@ async function update(a_date, a_timeEntries, a_menuJSON, isButton = false) {
 	// console.log(menuJSON.length);
 	// console.log((a_date.getDate() - 1) % 14);
 	
-	for (let index = 0; index < a_timeEntries.length; index++) {
-		const entryID = a_timeEntries[index];
-		const entry = document.getElementById(entryID.name);
-		// console.log(entry);
+	a_timeEntries.forEach(
+		(timeEntry) => {
+			const timeEntry = a_timeEntries[index];
+			const entry = document.getElementById(timeEntry.name);
+			// console.log(entry);
 
-		const foodEntries = entry.lastElementChild;
-		foodEntries.innerHTML = "";
-		// console.log(foodEntries);
+			const foodEntries = entry.lastElementChild;
+			foodEntries.innerHTML = "";
+			// console.log(foodEntries);
 
-		currentMenu[index].forEach(
-			foodObject => {
-				const foodEntry = document.createElement("p");
-				foodEntry.setAttribute("class", "FoodEntry " + TYPES[foodObject.type].class)
-				foodEntry.innerText = TYPES[foodObject.type].emoji + foodObject.name;
-				foodEntries.appendChild(foodEntry);
-			}
-		);
-	}
+			currentMenu[index].forEach(
+				foodObject => {
+					const foodEntry = document.createElement("p");
+					foodEntry.setAttribute("class", "FoodEntry " + TYPES[foodObject.type].class)
+					foodEntry.innerText = TYPES[foodObject.type].emoji + foodObject.name;
+					foodEntries.appendChild(foodEntry);
+				}
+			);
+		}
+	);
 }

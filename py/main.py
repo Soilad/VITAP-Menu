@@ -80,7 +80,7 @@ def main():
     print(len(normal_dict))
     for day in special_dict:
         for special_food_entries, normal_food_entries in zip(special_dict[day], normal_dict[day]):
-            for special_food_entry, normal_food_entry in zip(special_food_entries, normal_food_entries):
+            for special_food_entry in special_food_entries:
                 if special_food_entry not in normal_food_entries:
                     special_food_entry["type"] |= FoodType.SPECIAL
     # __import__('pprint').pprint(special_dict)

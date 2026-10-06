@@ -22,7 +22,16 @@
 		<script src="js/main.js"></script>
 		<script>
 			currentDate = new Date();
-			var menuJSON = loadJSON("./menu.json");
+			var menuJSON = loadJSON(
+				"./menu/"
+				+currentDate.getFullYear()
+				+"/"+(currentDate.getMonth()+1) // best programming language ever 10/10
+				+"/menu.json");
+			console.log(
+				"./menu/"
+				+currentDate.getFullYear()
+				+"/"+(currentDate.getMonth()+1)
+				+"/menu.json");
 			var timeEntries = [
 				{
 					name: "Breakfast",

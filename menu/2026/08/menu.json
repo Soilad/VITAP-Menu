@@ -1,2550 +1,2830 @@
 [
     [
-        [
-            {
-                "name": "Masala Ghee Roast Dosa",
-                "type": 0
-            },
-            {
-                "name": "Vada Pav",
-                "type": 0
-            },
-            {
-                "name": "Groundnut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Mint Chutney",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Guava Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Chocos",
-                "type": 2
-            },
-            {
-                "name": "Scrambled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Sweet Potato Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Shavige Bath",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Mudda Pappu",
-                "type": 0
-            },
-            {
-                "name": "Beetroot Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Pulihora (Tamarind Rice)",
-                "type": 0
-            },
-            {
-                "name": "Majiga Pulusu",
-                "type": 0
-            },
-            {
-                "name": "Chole Soya Chunks Curry",
-                "type": 0
-            },
-            {
-                "name": "Papad",
-                "type": 0
-            },
-            {
-                "name": "Lemon Water",
-                "type": 0
-            },
-            {
-                "name": "Avakaya (Mango Pickle)",
-                "type": 0
-            },
-            {
-                "name": "Carrot Halwa",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Punugulu 10 Pcs Std Size",
-                "type": 0
-            },
-            {
-                "name": "Groundnut/Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Dahi Puri (8 Pcs)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Mango Dal",
-                "type": 0
-            },
-            {
-                "name": "Bachali Kura Pulusu (Malabar Spinach)",
-                "type": 0
-            },
-            {
-                "name": "Adai Dosa -2 Pcs, Tomato Onion Chutney",
-                "type": 0
-            },
-            {
-                "name": "Cabbage Beans Poriyal",
-                "type": 0
-            },
-            {
-                "name": "Tomato Baingan Masala",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Muskmelon Cut Fruit",
-                "type": 0
-            },
-            {
-                "name": "Red Chilli Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Red Lentil Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Masala Ghee Roast Dosa",
+                    "type": 0
+                },
+                {
+                    "name": "Vada Pav",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Guava Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Chocos",
+                    "type": 2
+                },
+                {
+                    "name": "Scrambled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Sweet Potato Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Shavige Bath",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Mudda Pappu",
+                    "type": 0
+                },
+                {
+                    "name": "Beetroot Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Pulihora (Tamarind Rice)",
+                    "type": 0
+                },
+                {
+                    "name": "Majiga Pulusu",
+                    "type": 0
+                },
+                {
+                    "name": "Chole Soya Chunks Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Papad",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Water",
+                    "type": 0
+                },
+                {
+                    "name": "Avakaya (Mango Pickle)",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot Halwa",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Punugulu 10 Pcs Std Size",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut/Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Dahi Puri (8 Pcs)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Mango Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Bachali Kura Pulusu (Malabar Spinach)",
+                    "type": 0
+                },
+                {
+                    "name": "Adai Dosa -2 Pcs, Tomato Onion Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Cabbage Beans Poriyal",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Baingan Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Muskmelon Cut Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Red Chilli Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Red Lentil Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Shavige Bath",
-                "type": 0
-            },
-            {
-                "name": "Paneer Paratha - 2 Pcs Thin",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd, Mango Pickle",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Peanut Butter+Jam",
-                "type": 2
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Apple Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Cornflakes",
-                "type": 2
-            },
-            {
-                "name": "Egg Bhurji (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Raagi Malt",
-                "type": 0
-            },
-            {
-                "name": "Carrot Idly ",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Chicken Dum Biryani/Paneer Dum Biryani",
-                "type": 3
-            },
-            {
-                "name": "Chicken Thick Gravy / Hyderabadi Mirchi Ka Salan",
-                "type": 1
-            },
-            {
-                "name": "Onion Raitha",
-                "type": 0
-            },
-            {
-                "name": "Fryums",
-                "type": 0
-            },
-            {
-                "name": "Nannari Sharbath",
-                "type": 0
-            },
-            {
-                "name": "Fresh Gongura Chutney",
-                "type": 0
-            },
-            {
-                "name": "Vanilla Ice Cream (Made with Milk)",
-                "type": 0
-            },
-            {
-                "name": "Gulab Jamun",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Dahi Puri (8 Pcs)",
-                "type": 0
-            },
-            {
-                "name": "Onions",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Dry Maggi",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Red Lentil Dal",
-                "type": 0
-            },
-            {
-                "name": "Rasam",
-                "type": 0
-            },
-            {
-                "name": "Ragi Idly, Groundnut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Dondakaya Fry",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Kurma Gravy",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Papaya Cut Fruit",
-                "type": 0
-            },
-            {
-                "name": "Tomato Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Lemon Coriander Soup",
-                "type": 2
-            },
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Shavige Bath",
+                    "type": 0
+                },
+                {
+                    "name": "Paneer Paratha - 2 Pcs Thin",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd, Mango Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Peanut Butter+Jam",
+                    "type": 2
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Apple Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Cornflakes",
+                    "type": 2
+                },
+                {
+                    "name": "Egg Bhurji (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Raagi Malt",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot Idly ",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Chicken Dum Biryani/Paneer Dum Biryani",
+                    "type": 3
+                },
+                {
+                    "name": "Chicken Thick Gravy / Hyderabadi Mirchi Ka Salan",
+                    "type": 1
+                },
+                {
+                    "name": "Onion Raitha",
+                    "type": 0
+                },
+                {
+                    "name": "Fryums",
+                    "type": 0
+                },
+                {
+                    "name": "Nannari Sharbath",
+                    "type": 0
+                },
+                {
+                    "name": "Fresh Gongura Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Vanilla Ice Cream (Made with Milk)",
+                    "type": 0
+                },
+                {
+                    "name": "Gulab Jamun",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Dahi Puri (8 Pcs)",
+                    "type": 0
+                },
+                {
+                    "name": "Onions",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Dry Maggi",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Red Lentil Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Ragi Idly, Groundnut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Dondakaya Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Kurma Gravy",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Papaya Cut Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Coriander Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Carrot Idly ",
-                "type": 0
-            },
-            {
-                "name": "Bhature - 2 Pcs Big ",
-                "type": 0
-            },
-            {
-                "name": "Groundnut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Chole Curry",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Peanut Butter+Jam",
-                "type": 2
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Banana Milk Shake",
-                "type": 2
-            },
-            {
-                "name": "Cornflakes",
-                "type": 2
-            },
-            {
-                "name": "Egg Bhurji (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Paneer Bhurji (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Multi Grain Dosa (2 Pcs Thin)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Palak Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Tomato Rice",
-                "type": 0
-            },
-            {
-                "name": "Pesara Punugulu Curry (Pakka Andhra Style)",
-                "type": 0
-            },
-            {
-                "name": "Drumstick Tomato Masala",
-                "type": 0
-            },
-            {
-                "name": "Rava Vadiyalu",
-                "type": 0
-            },
-            {
-                "name": "Butter Milk",
-                "type": 0
-            },
-            {
-                "name": "Sorakaya Perugu Chutney, Ghee + Podi",
-                "type": 0
-            },
-            {
-                "name": "Jilebi",
-                "type": 0
-            },
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Dry Maggi",
-                "type": 0
-            },
-            {
-                "name": "Tomato Sauce",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Aloo Samosa 1 Big Pc",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            },
-            {
-                "name": "Methi Butter Roti",
-                "type": 2
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Pesara Pappu",
-                "type": 0
-            },
-            {
-                "name": "Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Bhagara Rice",
-                "type": 0
-            },
-            {
-                "name": "Telangana Chicken Curry (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Achari Paneer (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Ladies Finger Boiled Fry",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Mixed Fruit Salad",
-                "type": 0
-            },
-            {
-                "name": "Gongura Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 2
-            },
-            {
-                "name": "Sweet Corn Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot Idly ",
+                    "type": 0
+                },
+                {
+                    "name": "Bhature - 2 Pcs Big ",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Chole Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Peanut Butter+Jam",
+                    "type": 2
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Banana Milk Shake",
+                    "type": 2
+                },
+                {
+                    "name": "Cornflakes",
+                    "type": 2
+                },
+                {
+                    "name": "Egg Bhurji (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Paneer Bhurji (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Multi Grain Dosa (2 Pcs Thin)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Palak Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Pesara Punugulu Curry (Pakka Andhra Style)",
+                    "type": 0
+                },
+                {
+                    "name": "Drumstick Tomato Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Rava Vadiyalu",
+                    "type": 0
+                },
+                {
+                    "name": "Butter Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Sorakaya Perugu Chutney, Ghee + Podi",
+                    "type": 0
+                },
+                {
+                    "name": "Jilebi",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Dry Maggi",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Aloo Samosa 1 Big Pc",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Methi Butter Roti",
+                    "type": 2
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Pesara Pappu",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Bhagara Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Telangana Chicken Curry (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Achari Paneer (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Ladies Finger Boiled Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Mixed Fruit Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Gongura Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 2
+                },
+                {
+                    "name": "Sweet Corn Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Multi Grain Dosa (2 Pcs Thin)",
-                "type": 0
-            },
-            {
-                "name": "Pav Bhaji",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Mint Chutney",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Pomegranate Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Museli",
-                "type": 2
-            },
-            {
-                "name": "Scrambled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Soya Chunk Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Methu Vada (Big size 3pcs, if not 4pcs)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Amaranthus Dal",
-                "type": 0
-            },
-            {
-                "name": "Beetroot Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Bisbele Bath",
-                "type": 0
-            },
-            {
-                "name": "Kakarakaya (Bitter Gourd) Fry",
-                "type": 0
-            },
-            {
-                "name": "Rajma Masala",
-                "type": 0
-            },
-            {
-                "name": "Potato Chips",
-                "type": 0
-            },
-            {
-                "name": "Dahi Vada",
-                "type": 0
-            },
-            {
-                "name": "Dosakaya Tomato Chutney",
-                "type": 0
-            },
-            {
-                "name": "Rasamalai",
-                "type": 2
-            },
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Aloo Samosa 1 Big Pc",
-                "type": 0
-            },
-            {
-                "name": "Tomato Sauce",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Corn Vada",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal Makhani",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Mushroom Biryani",
-                "type": 0
-            },
-            {
-                "name": "Snake Gourd Poriyal",
-                "type": 0
-            },
-            {
-                "name": "Aloo Mutter Curry",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Guava Fruit",
-                "type": 0
-            },
-            {
-                "name": "Tomato Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Brocolli Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Multi Grain Dosa (2 Pcs Thin)",
+                    "type": 0
+                },
+                {
+                    "name": "Pav Bhaji",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Pomegranate Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Museli",
+                    "type": 2
+                },
+                {
+                    "name": "Scrambled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Soya Chunk Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Methu Vada (Big size 3pcs, if not 4pcs)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Amaranthus Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Beetroot Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Bisbele Bath",
+                    "type": 0
+                },
+                {
+                    "name": "Kakarakaya (Bitter Gourd) Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Rajma Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Potato Chips",
+                    "type": 0
+                },
+                {
+                    "name": "Dahi Vada",
+                    "type": 0
+                },
+                {
+                    "name": "Dosakaya Tomato Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Rasamalai",
+                    "type": 2
+                },
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Aloo Samosa 1 Big Pc",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Corn Vada",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal Makhani",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Mushroom Biryani",
+                    "type": 0
+                },
+                {
+                    "name": "Snake Gourd Poriyal",
+                    "type": 0
+                },
+                {
+                    "name": "Aloo Mutter Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Guava Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Brocolli Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Methu Vada (Big size 3pcs, if not 4pcs)",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Dalia",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Peanut Butter+Jam",
-                "type": 2
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Muskmelon Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Chocos",
-                "type": 2
-            },
-            {
-                "name": "Masala Onion Omlet  (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Chick Peas Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Onion & Carrot Uttappam (2 pcs standard size)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            },
-            {
-                "name": "Palak Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Gongura (Sorrel Leaves) Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Dum Pulav",
-                "type": 0
-            },
-            {
-                "name": "Masala Fish Fry",
-                "type": 1
-            },
-            {
-                "name": "Kaju Tomato Paneer Boiled Fry",
-                "type": 0
-            },
-            {
-                "name": "Black Chana Masala",
-                "type": 0
-            },
-            {
-                "name": "Trinagle Fryums",
-                "type": 0
-            },
-            {
-                "name": "Butter Milk",
-                "type": 0
-            },
-            {
-                "name": "Coriander + Tomato Chutney",
-                "type": 0
-            },
-            {
-                "name": "Gulab Jamun",
-                "type": 0
-            },
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Corn Vada",
-                "type": 0
-            },
-            {
-                "name": "Onion Tomato Chutney",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Poha Cutlet",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Tomato Dal",
-                "type": 0
-            },
-            {
-                "name": "Rasam",
-                "type": 0
-            },
-            {
-                "name": "Sooji Upma, Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Carrot Beans Poriyal",
-                "type": 0
-            },
-            {
-                "name": "Soya Chunks Masala",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Pineapple Cut Fruit",
-                "type": 0
-            },
-            {
-                "name": "Lemon Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Tomato Soup with Roasted Bread",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Methu Vada (Big size 3pcs, if not 4pcs)",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Dalia",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Peanut Butter+Jam",
+                    "type": 2
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Muskmelon Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Chocos",
+                    "type": 2
+                },
+                {
+                    "name": "Masala Onion Omlet  (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Chick Peas Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Onion & Carrot Uttappam (2 pcs standard size)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Palak Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Gongura (Sorrel Leaves) Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Dum Pulav",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Fish Fry",
+                    "type": 1
+                },
+                {
+                    "name": "Kaju Tomato Paneer Boiled Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Black Chana Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Trinagle Fryums",
+                    "type": 0
+                },
+                {
+                    "name": "Butter Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Coriander + Tomato Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Gulab Jamun",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Corn Vada",
+                    "type": 0
+                },
+                {
+                    "name": "Onion Tomato Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Poha Cutlet",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Sooji Upma, Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot Beans Poriyal",
+                    "type": 0
+                },
+                {
+                    "name": "Soya Chunks Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Pineapple Cut Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Soup with Roasted Bread",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Onion & Carrot Uttappam (2 pcs standard size)",
-                "type": 0
-            },
-            {
-                "name": "Poha",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Groundnut Chutney ",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Grapes Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Cornflakes",
-                "type": 2
-            },
-            {
-                "name": "Boiled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Paneer Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Uggani + Mirchi Bajji",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Ridge Gourd Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Pudina Rice",
-                "type": 0
-            },
-            {
-                "name": "Guthi Vankaya Curry",
-                "type": 0
-            },
-            {
-                "name": "Cluster Beans Masala",
-                "type": 0
-            },
-            {
-                "name": "Finger Fryums",
-                "type": 0
-            },
-            {
-                "name": "Lemon Water",
-                "type": 0
-            },
-            {
-                "name": "Potlakaya Perugu Chutney",
-                "type": 0
-            },
-            {
-                "name": "Shahi Ki Tukda",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Poha Cutlet",
-                "type": 0
-            },
-            {
-                "name": "Mint Sauce",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Palak Pakoda",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal Maharani",
-                "type": 0
-            },
-            {
-                "name": "Beetroot Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Veg Manchuria",
-                "type": 0
-            },
-            {
-                "name": "Arbi Ka Gravy",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Banana",
-                "type": 0
-            },
-            {
-                "name": "Ginger Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Creamy Mushroom Soup",
-                "type": 2
-            },
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Onion & Carrot Uttappam (2 pcs standard size)",
+                    "type": 0
+                },
+                {
+                    "name": "Poha",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut Chutney ",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Grapes Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Cornflakes",
+                    "type": 2
+                },
+                {
+                    "name": "Boiled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Paneer Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Uggani + Mirchi Bajji",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Ridge Gourd Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Pudina Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Guthi Vankaya Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Cluster Beans Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Finger Fryums",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Water",
+                    "type": 0
+                },
+                {
+                    "name": "Potlakaya Perugu Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Shahi Ki Tukda",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Poha Cutlet",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Palak Pakoda",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal Maharani",
+                    "type": 0
+                },
+                {
+                    "name": "Beetroot Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Veg Manchuria",
+                    "type": 0
+                },
+                {
+                    "name": "Arbi Ka Gravy",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Banana",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Creamy Mushroom Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Uggani + Mirchi Bajji",
-                "type": 0
-            },
-            {
-                "name": "Basin Chilla (2 Pcs thin) or Methi Roti",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Green Peas + Tomato Sabji",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Peanut Butter+Jam",
-                "type": 2
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Pineapple Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Museli",
-                "type": 2
-            },
-            {
-                "name": "Boiled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Peanut Sundal (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Masala Ghee Roast Dosa",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal Tadka",
-                "type": 0
-            },
-            {
-                "name": "Rasam",
-                "type": 0
-            },
-            {
-                "name": "Jeera Rice",
-                "type": 0
-            },
-            {
-                "name": "Raw Banana Fry",
-                "type": 0
-            },
-            {
-                "name": "Yam ka Gravy",
-                "type": 0
-            },
-            {
-                "name": "Papad",
-                "type": 0
-            },
-            {
-                "name": "Lassi",
-                "type": 0
-            },
-            {
-                "name": "Beerakaya Chutney",
-                "type": 0
-            },
-            {
-                "name": "Semiya Payasam",
-                "type": 0
-            },
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Palak Pakoda",
-                "type": 0
-            },
-            {
-                "name": "Mint Sauce",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Mysore Bonda 2 Pcs Std Size",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            },
-            {
-                "name": "Lacha Paratha",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Pesara Pappu",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Fish Fry (Non-Veg)",
-                "type": 3
-            },
-            {
-                "name": "Baby Corn Fry (Veg)",
-                "type": 2
-            },
-            {
-                "name": "Tomato Peas Capsicum Masala",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Grapes",
-                "type": 0
-            },
-            {
-                "name": "Mango Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Mix Veg Raagi Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Uggani + Mirchi Bajji",
+                    "type": 0
+                },
+                {
+                    "name": "Basin Chilla (2 Pcs thin) or Methi Roti",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Green Peas + Tomato Sabji",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Peanut Butter+Jam",
+                    "type": 2
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Pineapple Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Museli",
+                    "type": 2
+                },
+                {
+                    "name": "Boiled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Peanut Sundal (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Ghee Roast Dosa",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal Tadka",
+                    "type": 0
+                },
+                {
+                    "name": "Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Jeera Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Raw Banana Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Yam ka Gravy",
+                    "type": 0
+                },
+                {
+                    "name": "Papad",
+                    "type": 0
+                },
+                {
+                    "name": "Lassi",
+                    "type": 0
+                },
+                {
+                    "name": "Beerakaya Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Semiya Payasam",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Palak Pakoda",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Mysore Bonda 2 Pcs Std Size",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Lacha Paratha",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Pesara Pappu",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Fish Fry (Non-Veg)",
+                    "type": 3
+                },
+                {
+                    "name": "Baby Corn Fry (Veg)",
+                    "type": 2
+                },
+                {
+                    "name": "Tomato Peas Capsicum Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Grapes",
+                    "type": 0
+                },
+                {
+                    "name": "Mango Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Mix Veg Raagi Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Masala Ghee Roast Dosa",
-                "type": 0
-            },
-            {
-                "name": "Vada Pav",
-                "type": 0
-            },
-            {
-                "name": "Groundnut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Mint Chutney",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Orange Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Cornflakes",
-                "type": 2
-            },
-            {
-                "name": "Scrambled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Peanut Sundal (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Shavige Bath",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Mudda Pappu",
-                "type": 0
-            },
-            {
-                "name": "Beetroot Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Pulihora (Tamarind Rice)",
-                "type": 0
-            },
-            {
-                "name": "Majiga Pulusu",
-                "type": 0
-            },
-            {
-                "name": "Chole Soya Chunks Curry",
-                "type": 0
-            },
-            {
-                "name": "Papad",
-                "type": 0
-            },
-            {
-                "name": "Lemon Water",
-                "type": 0
-            },
-            {
-                "name": "Avakaya (Mango Pickle)",
-                "type": 0
-            },
-            {
-                "name": "Chocolate Cake (Egg Less)",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Mysore Bonda 2 Pcs Std Size",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Pani Puri (8 Pcs)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Mango Dal",
-                "type": 0
-            },
-            {
-                "name": "Bachali Kura Pulusu (Malabar Spinach)",
-                "type": 0
-            },
-            {
-                "name": "Podi Onion Dosa -2 Pcs, Dal Chutney",
-                "type": 0
-            },
-            {
-                "name": "Cabbage Beans Poriyal",
-                "type": 0
-            },
-            {
-                "name": "Tomato Baingan Masala",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Muskmelon Cut Fruit",
-                "type": 0
-            },
-            {
-                "name": "Red Chilli Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Veg Manchow Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Masala Ghee Roast Dosa",
+                    "type": 0
+                },
+                {
+                    "name": "Vada Pav",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Orange Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Cornflakes",
+                    "type": 2
+                },
+                {
+                    "name": "Scrambled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Peanut Sundal (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Shavige Bath",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Mudda Pappu",
+                    "type": 0
+                },
+                {
+                    "name": "Beetroot Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Pulihora (Tamarind Rice)",
+                    "type": 0
+                },
+                {
+                    "name": "Majiga Pulusu",
+                    "type": 0
+                },
+                {
+                    "name": "Chole Soya Chunks Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Papad",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Water",
+                    "type": 0
+                },
+                {
+                    "name": "Avakaya (Mango Pickle)",
+                    "type": 0
+                },
+                {
+                    "name": "Chocolate Cake (Egg Less)",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Mysore Bonda 2 Pcs Std Size",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Pani Puri (8 Pcs)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Mango Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Bachali Kura Pulusu (Malabar Spinach)",
+                    "type": 0
+                },
+                {
+                    "name": "Podi Onion Dosa -2 Pcs, Dal Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Cabbage Beans Poriyal",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Baingan Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Muskmelon Cut Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Red Chilli Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Veg Manchow Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Shavige Bath",
-                "type": 0
-            },
-            {
-                "name": "Aloo Paratha (2 Pcs Thin)",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd, Mango Pickle",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Apple + Beetroot + Carrot Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Museli",
-                "type": 2
-            },
-            {
-                "name": "Egg Bhurji (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Ragi Malt (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Rava Idly (Bangalore Style)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Chicken Dum Biryani/Paneer Dum Biryani",
-                "type": 3
-            },
-            {
-                "name": "Chicken Thick Gravy / Hyderabadi Mirchi Ka Salan",
-                "type": 1
-            },
-            {
-                "name": "Onion Raitha",
-                "type": 0
-            },
-            {
-                "name": "Fryums",
-                "type": 0
-            },
-            {
-                "name": "Nannari Sharbath",
-                "type": 0
-            },
-            {
-                "name": "Fresh Gongura Chutney",
-                "type": 0
-            },
-            {
-                "name": "Vanilla Ice Cream (Not Frozen Dessert)",
-                "type": 0
-            },
-            {
-                "name": "Gulab Jamun",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Pani Puri (8 Pcs)",
-                "type": 0
-            },
-            {
-                "name": "Onions",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Sweet Corn Masala",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Red Lentil Dal",
-                "type": 0
-            },
-            {
-                "name": "Rasam",
-                "type": 0
-            },
-            {
-                "name": "Ragi Idly, Groundnut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Dondakaya Fry",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Kurma Gravy",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Papaya Cut Fruit",
-                "type": 0
-            },
-            {
-                "name": "Tomato Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Lemon Coriander Soup",
-                "type": 2
-            },
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Shavige Bath",
+                    "type": 0
+                },
+                {
+                    "name": "Aloo Paratha (2 Pcs Thin)",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd, Mango Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Apple + Beetroot + Carrot Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Museli",
+                    "type": 2
+                },
+                {
+                    "name": "Egg Bhurji (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Ragi Malt (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Rava Idly (Bangalore Style)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Chicken Dum Biryani/Paneer Dum Biryani",
+                    "type": 3
+                },
+                {
+                    "name": "Chicken Thick Gravy / Hyderabadi Mirchi Ka Salan",
+                    "type": 1
+                },
+                {
+                    "name": "Onion Raitha",
+                    "type": 0
+                },
+                {
+                    "name": "Fryums",
+                    "type": 0
+                },
+                {
+                    "name": "Nannari Sharbath",
+                    "type": 0
+                },
+                {
+                    "name": "Fresh Gongura Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Vanilla Ice Cream (Not Frozen Dessert)",
+                    "type": 0
+                },
+                {
+                    "name": "Gulab Jamun",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Pani Puri (8 Pcs)",
+                    "type": 0
+                },
+                {
+                    "name": "Onions",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Sweet Corn Masala",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Red Lentil Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Ragi Idly, Groundnut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Dondakaya Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Kurma Gravy",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Papaya Cut Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Coriander Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Vegetable Rava Idly (Bangalore Style)",
-                "type": 0
-            },
-            {
-                "name": "Poori - 3 Pcs Big",
-                "type": 0
-            },
-            {
-                "name": "Groundnut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Chole Curry",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Cold Badam Milk",
-                "type": 2
-            },
-            {
-                "name": "Museli",
-                "type": 2
-            },
-            {
-                "name": "Scrambled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Paneer Bhurji (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Onion Dosa - 2 Pcs Std Size",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Palak Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Tomato Rice",
-                "type": 0
-            },
-            {
-                "name": "Potato Fry (Andha Style)",
-                "type": 0
-            },
-            {
-                "name": "Drumstick Tomato Masala",
-                "type": 0
-            },
-            {
-                "name": "Rava Vadiyalu",
-                "type": 0
-            },
-            {
-                "name": "Butter Milk",
-                "type": 0
-            },
-            {
-                "name": "Sorakaya Perugu Chutney, Ghee + Podi",
-                "type": 0
-            },
-            {
-                "name": "Sweet Boondi",
-                "type": 0
-            },
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Sweet Corn Masala",
-                "type": 0
-            },
-            {
-                "name": "Tomato/Mint Sauce",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Kachori 1 Big Pc",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            },
-            {
-                "name": "Methi Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Pesara Pappu",
-                "type": 0
-            },
-            {
-                "name": "Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Bhagara Rice",
-                "type": 0
-            },
-            {
-                "name": "Chettinad Chicken Curry (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Paneer Pepper Fry(Veg)",
-                "type": 0
-            },
-            {
-                "name": "Bhindi Masala",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Mixed Fruit Salad",
-                "type": 0
-            },
-            {
-                "name": "Gongura Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Sweet Corn Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Vegetable Rava Idly (Bangalore Style)",
+                    "type": 0
+                },
+                {
+                    "name": "Poori - 3 Pcs Big",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Chole Curry",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Cold Badam Milk",
+                    "type": 2
+                },
+                {
+                    "name": "Museli",
+                    "type": 2
+                },
+                {
+                    "name": "Scrambled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Paneer Bhurji (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Onion Dosa - 2 Pcs Std Size",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Palak Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Potato Fry (Andha Style)",
+                    "type": 0
+                },
+                {
+                    "name": "Drumstick Tomato Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Rava Vadiyalu",
+                    "type": 0
+                },
+                {
+                    "name": "Butter Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Sorakaya Perugu Chutney, Ghee + Podi",
+                    "type": 0
+                },
+                {
+                    "name": "Sweet Boondi",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Sweet Corn Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato/Mint Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Kachori 1 Big Pc",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Methi Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Pesara Pappu",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Bhagara Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Chettinad Chicken Curry (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Paneer Pepper Fry(Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Bhindi Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Mixed Fruit Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Gongura Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Sweet Corn Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Onion Dosa - 2 Pcs Std Size",
-                "type": 0
-            },
-            {
-                "name": "Pav Bhaji",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Mint Chutney",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Peanut Butter+Jam",
-                "type": 2
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Pomegranate Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Chocos",
-                "type": 2
-            },
-            {
-                "name": "Boiled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Soya Chunk Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Onion Rava Bonda (Big size 3pcs, if not 4pcs)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Amaranthus Dal",
-                "type": 0
-            },
-            {
-                "name": "Beetroot Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Bisbele Bath",
-                "type": 0
-            },
-            {
-                "name": "Kakarakaya (Bitter Gourd) Fry",
-                "type": 0
-            },
-            {
-                "name": "Rajma Masala",
-                "type": 0
-            },
-            {
-                "name": "Potato Chips",
-                "type": 0
-            },
-            {
-                "name": "Dahi Vada",
-                "type": 0
-            },
-            {
-                "name": "Dosakaya Tomato Chutney",
-                "type": 0
-            },
-            {
-                "name": "Puran Poli",
-                "type": 2
-            },
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Kachori 1 Big Pc",
-                "type": 0
-            },
-            {
-                "name": "Tomato Sauce",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Vada Pav 2 Pcs",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal Makhani",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Mushroom Biryani",
-                "type": 0
-            },
-            {
-                "name": "Snake Gourd Poriyal",
-                "type": 0
-            },
-            {
-                "name": "Aloo Mutter Curry",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Guava Fruit",
-                "type": 0
-            },
-            {
-                "name": "Tomato Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Brocolli Soup",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Onion Dosa - 2 Pcs Std Size",
+                    "type": 0
+                },
+                {
+                    "name": "Pav Bhaji",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Peanut Butter+Jam",
+                    "type": 2
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Pomegranate Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Chocos",
+                    "type": 2
+                },
+                {
+                    "name": "Boiled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Soya Chunk Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Onion Rava Bonda (Big size 3pcs, if not 4pcs)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Amaranthus Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Beetroot Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Bisbele Bath",
+                    "type": 0
+                },
+                {
+                    "name": "Kakarakaya (Bitter Gourd) Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Rajma Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Potato Chips",
+                    "type": 0
+                },
+                {
+                    "name": "Dahi Vada",
+                    "type": 0
+                },
+                {
+                    "name": "Dosakaya Tomato Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Puran Poli",
+                    "type": 2
+                },
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Kachori 1 Big Pc",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Vada Pav 2 Pcs",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal Makhani",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Mushroom Biryani",
+                    "type": 0
+                },
+                {
+                    "name": "Snake Gourd Poriyal",
+                    "type": 0
+                },
+                {
+                    "name": "Aloo Mutter Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Guava Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Brocolli Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Onion Rava Bonda (Big size 3pcs, if not 4pcs)",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Moon Dal Kitchidi",
-                "type": 0
-            },
-            {
-                "name": "Groundnut Chutney + Sambar",
-                "type": 0
-            },
-            {
-                "name": "Mango Pickle",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Papaya Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Cornflakes",
-                "type": 2
-            },
-            {
-                "name": "Masala Onion Omlet  (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Greek Yogurt Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Mix Veg Uttappam (2 pcs standard size)",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            },
-            {
-                "name": "Palak Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Gongura (Sorrel Leaves) Dal",
-                "type": 2
-            },
-            {
-                "name": "Pachi Pulusu",
-                "type": 0
-            },
-            {
-                "name": "Special Rice",
-                "type": 0
-            },
-            {
-                "name": "Boiled Stir Fry Chicken Masala (Dry)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Stir Fry Paneer Masala (Dry)",
-                "type": 0
-            },
-            {
-                "name": "Vegetable Jalfrezi",
-                "type": 0
-            },
-            {
-                "name": "Chips/Fryums/Papad",
-                "type": 0
-            },
-            {
-                "name": "Butter Milk/Lassi/Lemon Water",
-                "type": 0
-            },
-            {
-                "name": "Fresh Vegetable Chutney",
-                "type": 0
-            },
-            {
-                "name": "Badusha",
-                "type": 0
-            },
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Vada Pav 2 Pcs",
-                "type": 0
-            },
-            {
-                "name": "Mint Sauce",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Sambar Vada",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Tomato Dal",
-                "type": 0
-            },
-            {
-                "name": "Rasam",
-                "type": 0
-            },
-            {
-                "name": "Broken Wheat Rava Upma, Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Carrot Beans Poriyal",
-                "type": 0
-            },
-            {
-                "name": "Arbi Ka Gravy",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Pineapple Cut Fruit",
-                "type": 0
-            },
-            {
-                "name": "Lemon Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Tomato Soup with Roasted Bread",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Onion Rava Bonda (Big size 3pcs, if not 4pcs)",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Moon Dal Kitchidi",
+                    "type": 0
+                },
+                {
+                    "name": "Groundnut Chutney + Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Mango Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Papaya Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Cornflakes",
+                    "type": 2
+                },
+                {
+                    "name": "Masala Onion Omlet  (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Greek Yogurt Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Mix Veg Uttappam (2 pcs standard size)",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Palak Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Gongura (Sorrel Leaves) Dal",
+                    "type": 2
+                },
+                {
+                    "name": "Pachi Pulusu",
+                    "type": 0
+                },
+                {
+                    "name": "Special Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Boiled Stir Fry Chicken Masala (Dry)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Stir Fry Paneer Masala (Dry)",
+                    "type": 0
+                },
+                {
+                    "name": "Vegetable Jalfrezi",
+                    "type": 0
+                },
+                {
+                    "name": "Chips/Fryums/Papad",
+                    "type": 0
+                },
+                {
+                    "name": "Butter Milk/Lassi/Lemon Water",
+                    "type": 0
+                },
+                {
+                    "name": "Fresh Vegetable Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Badusha",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Vada Pav 2 Pcs",
+                    "type": 0
+                },
+                {
+                    "name": "Mint Sauce",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar Vada",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Broken Wheat Rava Upma, Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Carrot Beans Poriyal",
+                    "type": 0
+                },
+                {
+                    "name": "Arbi Ka Gravy",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Pineapple Cut Fruit",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Soup with Roasted Bread",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Mix Veg Uttappam (2 pcs standard size)",
-                "type": 0
-            },
-            {
-                "name": "Poha",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Brown Bread+Peanut Butter+Jam",
-                "type": 2
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Grapes Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Museli",
-                "type": 2
-            },
-            {
-                "name": "Egg Poach (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Paneer Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "Uggani + Mirchi Bajji",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Carrot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Pulka",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Ridge Gourd Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Pudina Rice",
-                "type": 0
-            },
-            {
-                "name": "Guthi Vankaya Curry",
-                "type": 0
-            },
-            {
-                "name": "Kala Chana Masala",
-                "type": 0
-            },
-            {
-                "name": "Finger Fryums",
-                "type": 0
-            },
-            {
-                "name": "Lemon Water",
-                "type": 0
-            },
-            {
-                "name": "Potlakaya Perugu Chutney",
-                "type": 0
-            },
-            {
-                "name": "Mothichoor Laddu",
-                "type": 2
-            },
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Sambar Vada",
-                "type": 0
-            },
-            {
-                "name": "Masala Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Onion Soft Pakoda",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Carrot Salad",
-                "type": 0
-            },
-            {
-                "name": "Roti",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal Fry",
-                "type": 0
-            },
-            {
-                "name": "Beetroot Tomato Rasam",
-                "type": 0
-            },
-            {
-                "name": "Gobhi Manchuria",
-                "type": 0
-            },
-            {
-                "name": "Rajma Masala",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Banana",
-                "type": 0
-            },
-            {
-                "name": "Ginger Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Creamy Mushroom Soup",
-                "type": 2
-            },
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Mix Veg Uttappam (2 pcs standard size)",
+                    "type": 0
+                },
+                {
+                    "name": "Poha",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Brown Bread+Peanut Butter+Jam",
+                    "type": 2
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Grapes Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Museli",
+                    "type": 2
+                },
+                {
+                    "name": "Egg Poach (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Paneer Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "Uggani + Mirchi Bajji",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Carrot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Pulka",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Ridge Gourd Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Pudina Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Guthi Vankaya Curry",
+                    "type": 0
+                },
+                {
+                    "name": "Kala Chana Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Finger Fryums",
+                    "type": 0
+                },
+                {
+                    "name": "Lemon Water",
+                    "type": 0
+                },
+                {
+                    "name": "Potlakaya Perugu Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Mothichoor Laddu",
+                    "type": 2
+                },
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Sambar Vada",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Onion Soft Pakoda",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Carrot Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Roti",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Beetroot Tomato Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Gobhi Manchuria",
+                    "type": 0
+                },
+                {
+                    "name": "Rajma Masala",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Banana",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Creamy Mushroom Soup",
+                    "type": 2
+                },
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                }
+            ]
+        }
     ],
     [
-        [
-            {
-                "name": "Uggani + Mirchi Bajji",
-                "type": 0
-            },
-            {
-                "name": "Basin Chilla (2 Pcs thin)",
-                "type": 0
-            },
-            {
-                "name": "Coconut Chutney",
-                "type": 0
-            },
-            {
-                "name": "Tomato Chutney",
-                "type": 0
-            },
-            {
-                "name": "White Bread+Butter+Jam",
-                "type": 0
-            },
-            {
-                "name": "Sprouts (1 small cup)",
-                "type": 0
-            },
-            {
-                "name": "Tea/Coffee/Milk",
-                "type": 0
-            },
-            {
-                "name": "Pineapple Fresh Juice",
-                "type": 2
-            },
-            {
-                "name": "Chocos",
-                "type": 2
-            },
-            {
-                "name": "Boiled Egg (Non-Veg)",
-                "type": 1
-            },
-            {
-                "name": "Boiled Chick Peas Salad (Veg)",
-                "type": 0
-            },
-            {
-                "name": "MESS SERVICE INSTRUCTIONS",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Beetroot & Cucumber Salad",
-                "type": 0
-            },
-            {
-                "name": "Chapathi",
-                "type": 0
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal Tadka",
-                "type": 0
-            },
-            {
-                "name": "Rasam",
-                "type": 0
-            },
-            {
-                "name": "Jeera Rice",
-                "type": 0
-            },
-            {
-                "name": "Raw Banana Fry",
-                "type": 0
-            },
-            {
-                "name": "Lobia Masala (Cowpeas in Onion Tomato Gravy)",
-                "type": 0
-            },
-            {
-                "name": "Papad",
-                "type": 0
-            },
-            {
-                "name": "Lassi",
-                "type": 0
-            },
-            {
-                "name": "Beerakaya Chutney",
-                "type": 0
-            },
-            {
-                "name": "Poornalu ",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onion Soft Pakoda",
-                "type": 0
-            },
-            {
-                "name": "Tomato Chutney",
-                "type": 0
-            },
-            {
-                "name": "Ginger Tea/Coffee/Milk",
-                "type": 0
-            }
-        ],
-        [
-            {
-                "name": "Onions & Lemon Salad",
-                "type": 0
-            },
-            {
-                "name": "Butter Naan",
-                "type": 2
-            },
-            {
-                "name": "White Rice",
-                "type": 0
-            },
-            {
-                "name": "Dal",
-                "type": 0
-            },
-            {
-                "name": "Sambar",
-                "type": 0
-            },
-            {
-                "name": "Masala Fish Curry",
-                "type": 3
-            },
-            {
-                "name": "Paneer Tikka (Veg)",
-                "type": 2
-            },
-            {
-                "name": "Vegetable Kolhapuri",
-                "type": 0
-            },
-            {
-                "name": "Thick Curd",
-                "type": 0
-            },
-            {
-                "name": "Grapes",
-                "type": 0
-            },
-            {
-                "name": "Fresh Vegetable Chutney/Pickle",
-                "type": 0
-            },
-            {
-                "name": "Milk + Cofee Powder",
-                "type": 0
-            },
-            {
-                "name": "Mix Veg Raagi Soup",
-                "type": 0
-            }
-        ]
+        {
+            "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
+            "foodEntries": [
+                {
+                    "name": "Uggani + Mirchi Bajji",
+                    "type": 0
+                },
+                {
+                    "name": "Basin Chilla (2 Pcs thin)",
+                    "type": 0
+                },
+                {
+                    "name": "Coconut Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "White Bread+Butter+Jam",
+                    "type": 0
+                },
+                {
+                    "name": "Sprouts (1 small cup)",
+                    "type": 0
+                },
+                {
+                    "name": "Tea/Coffee/Milk",
+                    "type": 0
+                },
+                {
+                    "name": "Pineapple Fresh Juice",
+                    "type": 2
+                },
+                {
+                    "name": "Chocos",
+                    "type": 2
+                },
+                {
+                    "name": "Boiled Egg (Non-Veg)",
+                    "type": 1
+                },
+                {
+                    "name": "Boiled Chick Peas Salad (Veg)",
+                    "type": 0
+                },
+                {
+                    "name": "MESS SERVICE INSTRUCTIONS",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
+            "foodEntries": [
+                {
+                    "name": "Beetroot & Cucumber Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Chapathi",
+                    "type": 0
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal Tadka",
+                    "type": 0
+                },
+                {
+                    "name": "Rasam",
+                    "type": 0
+                },
+                {
+                    "name": "Jeera Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Raw Banana Fry",
+                    "type": 0
+                },
+                {
+                    "name": "Lobia Masala (Cowpeas in Onion Tomato Gravy)",
+                    "type": 0
+                },
+                {
+                    "name": "Papad",
+                    "type": 0
+                },
+                {
+                    "name": "Lassi",
+                    "type": 0
+                },
+                {
+                    "name": "Beerakaya Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Poornalu ",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
+            "foodEntries": [
+                {
+                    "name": "Onion Soft Pakoda",
+                    "type": 0
+                },
+                {
+                    "name": "Tomato Chutney",
+                    "type": 0
+                },
+                {
+                    "name": "Ginger Tea/Coffee/Milk",
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
+            "foodEntries": [
+                {
+                    "name": "Onions & Lemon Salad",
+                    "type": 0
+                },
+                {
+                    "name": "Butter Naan",
+                    "type": 2
+                },
+                {
+                    "name": "White Rice",
+                    "type": 0
+                },
+                {
+                    "name": "Dal",
+                    "type": 0
+                },
+                {
+                    "name": "Sambar",
+                    "type": 0
+                },
+                {
+                    "name": "Masala Fish Curry",
+                    "type": 3
+                },
+                {
+                    "name": "Paneer Tikka (Veg)",
+                    "type": 2
+                },
+                {
+                    "name": "Vegetable Kolhapuri",
+                    "type": 0
+                },
+                {
+                    "name": "Thick Curd",
+                    "type": 0
+                },
+                {
+                    "name": "Grapes",
+                    "type": 0
+                },
+                {
+                    "name": "Fresh Vegetable Chutney/Pickle",
+                    "type": 0
+                },
+                {
+                    "name": "Milk + Cofee Powder",
+                    "type": 0
+                },
+                {
+                    "name": "Mix Veg Raagi Soup",
+                    "type": 0
+                }
+            ]
+        }
     ]
 ]

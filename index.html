@@ -22,55 +22,10 @@
 		<script src="js/main.js"></script>
 		<script>
 			currentDate = new Date();
-			var menuJSON = loadJSON(
-				"./menu/"
-				+currentDate.getFullYear()
-				+"/"+(currentDate.getMonth()+1) // best programming language ever 10/10
-				+"/menu.json");
-			console.log(
-				"./menu/"
-				+currentDate.getFullYear()
-				+"/"+(currentDate.getMonth()+1)
-				+"/menu.json");
-			var timeEntries = [
-				{
-					name: "Breakfast",
-					id: 0,
-					start: new Date(new Date(currentDate).setHours(7, 15, 0, 0)),
-					end: new Date(new Date(currentDate).setHours(9, 0, 0, 0)),
-				}, {
-					name: "Lunch",
-					id: 1,
-					start: new Date(new Date(currentDate).setHours(12, 15, 0, 0)),
-					end: new Date(new Date(currentDate).setHours(14, 0, 0, 0)),
-				}, {
-					name: "Snacks",
-					id: 2,
-					start: new Date(new Date(currentDate).setHours(16, 15, 0, 0)),
-					end: new Date(new Date(currentDate).setHours(18, 15, 0, 0)),
-				}, {
-					name: "Dinner",
-					id: 3,
-					start: new Date(new Date(currentDate).setHours(19, 15, 0, 0)),
-					end: new Date(new Date(currentDate).setHours(21, 0, 0, 0)),
-				}
-			];
-			timeEntries.sort(
-				(entry1, entry2) => {
-					return (
-						Math.abs(
-							entry1.start.getTime() 
-							- currentDate.getTime()
-						) - Math.abs(
-							entry2.start.getTime() 
-							- currentDate.getTime()
-						)
-					);
-				}
-			)
+			var menuJSON = loadJSON(getMenuURL(currentDate));
 		</script>
 	</head>
-	<body onload="init(currentDate, timeEntries, menuJSON);update(currentDate, timeEntries, menuJSON);">
+	<body onload="init(currentDate, menuJSON);">
 		<div class="Header">
 			<img src="./assets/Yuchiru.png" alt="" width="100">
 			<h1>VIT-AP Mess Menu</h1>
@@ -82,9 +37,9 @@
 			<a href="https://youtu.be/2p07dBnwzck?si=N4qlJoKK4n_H653A">Report To VIT-AP Staff</a>
 		</div>
 		<div class="Header">
-			<button class="ChangeDate" type="" onclick="lockByMonth(currentDate, -1); update(currentDate, timeEntries, menuJSON, true);">&lt;</button>
+			<button class="ChangeDate" type="" onclick="lockByMonth(currentDate, -1); update(currentDate, menuJSON);">&lt;</button>
 			<input type="number" id="monthDay">
-			<button class="ChangeDate" type="" onclick="lockByMonth(currentDate, 1); update(currentDate, timeEntries, menuJSON, true);">&gt;</button>
+			<button class="ChangeDate" type="" onclick="lockByMonth(currentDate, 1); update(currentDate, menuJSON);">&gt;</button>
 		</div>
 		<div id="timeEntries">
 		</div>

@@ -1,6 +1,6 @@
 import re
 
-from .structs import FoodType
+from .structs import TIMINGS, FoodType
 
 
 def splitItems(name) -> list[str]:
@@ -33,9 +33,13 @@ def getTimeEntries(menu, start_row, end_row) -> list[dict]:
     time_entries = []
     for entry in range(4):
         column = chr(ord('B') + entry)
+        title  = menu[f"{column}3"].value
+        start, end = TIMINGS[title]
         time_entries.append(
             {
-                "title"       : menu[f"{column}3"].value,
+                "title"       : title,
+                "start"       : start,
+                "end"         : end,
                 "foodEntries" : [
                     item
                     for food_entry in menu[f"{column}{start_row}":f"{column}{end_row}"]

@@ -33,7 +33,7 @@ def main() -> None:
     menu_json = list(special_dict.values())
 
     now = datetime.now()  # noqa: DTZ005
-    menu_dir = Path(f"../menu/{now.year}/{now.month}")
+    menu_dir = Path(f"../menu/{now.year}/{now.month:02}")
     menu_dir.mkdir(parents=True, exist_ok=True)
     with open(menu_dir / "menu.json", "w") as f:
         json.dump(menu_json, f, indent=4)

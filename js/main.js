@@ -41,7 +41,23 @@ function lockByMonth(date, offset = 0) {
 	return true;
 }
 
-async function init(a_currentDate = new Date(), a_timeEntries, a_menuJSON) {
+// e.g. ./menu/2026/08/menu.json
+function getMenuURL(a_date) {
+	const month = String(a_date.getMonth() + 1).padStart(2, "0");
+	return "./menu/" + a_date.getFullYear() + "/" + month + "/menu.json";
+}
+
+// turns "HH:MM" into a Date on the same day as a_date
+function parseTime(a_date, a_time) {
+	const [hours, minutes] = a_time.split(":").map(part => parseInt(part));
+	return new Date(new Date(a_date).setHours(hours, minutes, 0, 0));
+}
+
+function getDayMenu(a_menuJSON, a_date) {
+	return a_menuJSON[(a_date.getDate() - 1) % CYCLE_LENGTH];
+}
+
+async function init(a_currentDate = new Date(), a_menuJSON) {
 	const inputMonth = document.getElementById("monthDay");
 	inputMonth.value = a_currentDate.getDate();
 	inputMonth.addEventListener(
@@ -51,19 +67,30 @@ async function init(a_currentDate = new Date(), a_timeEntries, a_menuJSON) {
 			if (!isNaN(monthDay)) {
 				lockByMonth(a_currentDate, monthDay - a_currentDate.getDate());
 			}
-			await update(a_currentDate, a_timeEntries, a_menuJSON);
+			await update(a_currentDate, a_menuJSON);
 		}
+	);
+
+	const menuJSON = await a_menuJSON;
+	if (!menuJSON) return;
+
+	// put the meal closest to now first
+	const now = new Date();
+	const meals = [...getDayMenu(menuJSON, now)].sort(
+		(meal1, meal2) => (
+			Math.abs(parseTime(now, meal1.start) - now)
+			- Math.abs(parseTime(now, meal2.start) - now)
+		)
 	);
 
 	const timeEntries = document.getElementById("timeEntries");
 
-	a_timeEntries.forEach(entry => {
+	meals.forEach(meal => {
 		const timeEntry = document.createElement("div");
-		timeEntry.id = entry.name;
+		timeEntry.id = meal.title;
 		timeEntry.classList.add("TimeEntry");
 
 		const timeEntryHeading = document.createElement("h2");
-		timeEntryHeading.innerText = getHeading(entry);
 		timeEntry.appendChild(timeEntryHeading);
 
 		const foodEntries = document.createElement("div");
@@ -72,19 +99,21 @@ async function init(a_currentDate = new Date(), a_timeEntries, a_menuJSON) {
 
 		timeEntries.appendChild(timeEntry);
 	});
-	timeEntries.firstElementChild.classList.add("Active");
+	timeEntries.firstElementChild?.classList.add("Active");
+
+	await update(a_currentDate, menuJSON);
 }
 
-function getHeading(a_timeEntry) {
+function getHeading(a_meal, a_date) {
 	const format = {
 		hour: "2-digit",
 		minute: "2-digit",
 	}
-	return a_timeEntry.name
+	return a_meal.title
 	+ " ("
-	+ a_timeEntry.start.toLocaleTimeString('en', format)
+	+ parseTime(a_date, a_meal.start).toLocaleTimeString('en', format)
 	+ " - "
-	+ a_timeEntry.end.toLocaleTimeString('en', format)
+	+ parseTime(a_date, a_meal.end).toLocaleTimeString('en', format)
 	+ ")";
 }
 
@@ -97,22 +126,22 @@ function getFoodName(a_name, monthDay) {
 	return a_name.slice(0, match.index);
 }
 
-async function update(a_date, a_timeEntries, a_menuJSON, isButton = false) {
+async function update(a_date, a_menuJSON) {
 	const inputMonth = document.getElementById("monthDay");
 	inputMonth.value = a_date.getDate();
 
 	const menuJSON = await a_menuJSON;
 	if (!menuJSON) return;
-	const currentMenu = menuJSON[(a_date.getDate() - 1) % CYCLE_LENGTH];
 
-	a_timeEntries.forEach(
-		(timeEntry) => {
-			const foodEntries = document.getElementById(timeEntry.name).lastElementChild;
+	getDayMenu(menuJSON, a_date).forEach(
+		(meal) => {
+			const timeEntry = document.getElementById(meal.title);
+			if (!timeEntry) return;
+
+			timeEntry.firstElementChild.innerText = getHeading(meal, a_date);
+
+			const foodEntries = timeEntry.lastElementChild;
 			foodEntries.innerHTML = "";
-
-			const meal = currentMenu.find(meal => meal.title === timeEntry.name)
-				?? currentMenu[timeEntry.id];
-			if (!meal) return;
 
 			meal.foodEntries.forEach(
 				foodObject => {

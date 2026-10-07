@@ -2,6 +2,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Methi Poori (3 Pcs standard size)",
@@ -71,6 +73,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Carrot & Cucumber Salad",
@@ -140,6 +144,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Veg Puff (1, 29)",
@@ -173,6 +179,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -256,6 +264,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Uggani",
@@ -325,6 +335,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Cucumber Salad",
@@ -378,6 +390,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Raw Banana Bhajji 2 PCs (Less Oily)",
@@ -403,6 +417,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -466,6 +482,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Mix Veg Utappam - 2 Pcs Std Size",
@@ -531,6 +549,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Carrot & Cucumber Salad",
@@ -592,6 +612,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Punugulu 8 Pcs Medium Size",
@@ -613,6 +635,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -684,6 +708,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Shavige Bath",
@@ -757,6 +783,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -818,6 +846,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Plum Cake (Egg Less) 1 Big Pc",
@@ -839,6 +869,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -906,6 +938,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Ghee",
@@ -979,6 +1013,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Boiled Chana Salad with Onion & Tomato",
@@ -1048,6 +1084,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Dry Maggi (Non-Sticky)",
@@ -1073,6 +1111,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -1140,6 +1180,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Onion Dosa (6)",
@@ -1209,6 +1251,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Carrot & Cucumber Salad",
@@ -1270,6 +1314,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Aloo Samosa 1 Big Pc",
@@ -1299,6 +1345,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -1362,6 +1410,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Methi Vada (Big size 3pcs, if not 4pcs)",
@@ -1427,6 +1477,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -1484,6 +1536,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Onion Soft Pakoda (Less Oily)",
@@ -1509,6 +1563,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -1576,6 +1632,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Poori (3 pcs standard size)",
@@ -1641,6 +1699,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Carrot & Cucumber Salad",
@@ -1706,6 +1766,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Sambar Vada 2 Pcs (Separate)",
@@ -1727,6 +1789,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -1810,6 +1874,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Pesarattu Thin 2 Pcs Std Size",
@@ -1875,6 +1941,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Cucumber Salad",
@@ -1928,6 +1996,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Mysore Bonda 2 Pcs Std Size (Less Oily)",
@@ -1953,6 +2023,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -2020,6 +2092,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Uggani",
@@ -2089,6 +2163,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Carrot & Cucumber Salad",
@@ -2150,6 +2226,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Vada Pav 2 Pcs",
@@ -2167,6 +2245,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -2238,6 +2318,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Shavige Bath",
@@ -2311,6 +2393,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -2372,6 +2456,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Dahi Papdi Chat",
@@ -2397,6 +2483,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -2464,6 +2552,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Roasted Idli Upma",
@@ -2529,6 +2619,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Boiled Chana Salad with Onion & Tomato",
@@ -2598,6 +2690,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Chatakedar Corn",
@@ -2623,6 +2717,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -2690,6 +2786,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Ghee Podi Dosa (2 Pcs Thin)",
@@ -2759,6 +2857,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Carrot & Cucumber Salad",
@@ -2820,6 +2920,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Aloo Samosa 1 Big Pc",
@@ -2849,6 +2951,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",
@@ -2912,6 +3016,8 @@
     [
         {
             "title": "Breakfast",
+            "start": "07:15",
+            "end": "09:00",
             "foodEntries": [
                 {
                     "name": "Methu Vada (Big size 3pcs, if not 4pcs)",
@@ -2977,6 +3083,8 @@
         },
         {
             "title": "Lunch",
+            "start": "12:15",
+            "end": "14:00",
             "foodEntries": [
                 {
                     "name": "Onions & Lemon Salad",
@@ -3038,6 +3146,8 @@
         },
         {
             "title": "Snacks",
+            "start": "16:15",
+            "end": "18:15",
             "foodEntries": [
                 {
                     "name": "Bandi Style Ragda Chat",
@@ -3063,6 +3173,8 @@
         },
         {
             "title": "Dinner",
+            "start": "19:15",
+            "end": "21:00",
             "foodEntries": [
                 {
                     "name": "Beetroot & Carrot Salad",

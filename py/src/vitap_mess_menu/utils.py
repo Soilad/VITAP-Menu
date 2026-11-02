@@ -56,7 +56,8 @@ def menuToJSON(menu):
     start_row = 4
     end_row   = start_row + 1
     while len(dictJSON) < 14:
-        start_cell = menu[f"A{start_row}"].value
+        # collapse whitespace so "Wed\n4, 18" and "Wed      4, 18" match across sheets
+        start_cell = " ".join(str(menu[f"A{start_row}"].value).split())
         end_cell   = menu[f"A{end_row}"].value
         if end_row - start_row > 14:
             dictJSON[start_cell] = getTimeEntries(menu, start_row, end_row - 1)
